@@ -1,0 +1,501 @@
+text,label,length_chars,length_words,punctuation_ratio,repetition_score
+"As someone who follows food, I believe privacy concerns remain a top challenge. I would love to hear others' thoughts on this.",0,126,22,0.031746031746031744,0.045454545454545414
+Analysis indicates that travel is associated with privacy concerns remain a top challenge. Community feedback will shape future developments.,1,141,19,0.014184397163120567,0.0
+I recently experienced education in my day-to-day life and found that the results are promising but preliminary.,0,112,17,0.026785714285714284,0.0
+Analysis indicates that sports is associated with costs can vary greatly depending on implementation.,1,101,14,0.009900990099009901,0.0
+"In my experience, finance often leads to users report a mixed set of outcomes.",0,78,14,0.02564102564102564,0.0
+Analysis indicates that education is associated with privacy concerns remain a top challenge.,1,93,13,0.010752688172043012,0.0
+The following summary on sports shows it requires more data for conclusive evidence. Implementation details matter a lot here.,1,126,19,0.015873015873015872,0.0
+This article discusses science and highlights that costs can vary greatly depending on implementation. This could change as new data becomes available.,1,151,22,0.013245033112582781,0.045454545454545414
+I recently experienced education in my day-to-day life and found that privacy concerns remain a top challenge. it requires more data for conclusive evidence it requires more data for conclusive evidence,0,202,31,0.01485148514851485,0.22580645161290325
+Research-style summary on science suggests it can be optimized with simple heuristics.,1,86,12,0.023255813953488372,0.0
+"After trying several approaches related to entertainment, I noticed costs can vary greatly depending on implementation.",0,119,16,0.01680672268907563,0.0
+Analysis indicates that entertainment is associated with users report a mixed set of outcomes. adoption increases with better education there are trade-offs to consider costs can vary greatly depending on implementation,1,219,31,0.0091324200913242,0.032258064516129004
+My personal opinion on lifestyle is that users report a mixed set of outcomes.,0,78,14,0.01282051282051282,0.0
+"After trying several approaches related to finance, I noticed the community response has been overwhelmingly positive.",0,118,16,0.01694915254237288,0.0
+This article discusses finance and highlights that there are trade-offs to consider.,1,84,12,0.023809523809523808,0.0
+"In my experience, education often leads to there are trade-offs to consider.",0,76,12,0.039473684210526314,0.08333333333333337
+I recently experienced sports in my day-to-day life and found that privacy concerns remain a top challenge.,0,107,17,0.028037383177570093,0.0
+The following summary on technology shows privacy concerns remain a top challenge. Community feedback will shape future developments.,1,133,18,0.015037593984962405,0.0
+The following summary on travel shows users report a mixed set of outcomes.,1,75,13,0.013333333333333334,0.0
+The following summary on health shows it requires more data for conclusive evidence.,1,84,13,0.011904761904761904,0.0
+"As someone who follows technology, I believe the community response has been overwhelmingly positive.",0,101,14,0.019801980198019802,0.0
+This article discusses travel and highlights that the community response has been overwhelmingly positive. Further investigation is warranted.,1,142,18,0.014084507042253521,0.0
+"As someone who follows lifestyle, I believe the community response has been overwhelmingly positive.",0,100,14,0.02,0.0
+"In my experience, lifestyle often leads to users report a mixed set of outcomes.",0,80,14,0.025,0.0
+Analysis indicates that food is associated with adoption increases with better education. Further investigation is warranted.,1,125,16,0.016,0.125
+I recently experienced food in my day-to-day life and found that the results are promising but preliminary. it can be optimized with simple heuristics costs can vary greatly depending on implementation,0,201,31,0.014925373134328358,0.032258064516129004
+Analysis indicates that food is associated with it can be optimized with simple heuristics.,1,91,14,0.01098901098901099,0.0714285714285714
+"In my experience, education often leads to privacy concerns remain a top challenge.",0,83,13,0.024096385542168676,0.0
+The following summary on food shows adoption increases with better education. Further investigation is warranted.,1,113,15,0.017699115044247787,0.0
+This article discusses sports and highlights that users report a mixed set of outcomes.,1,87,14,0.011494252873563218,0.0
+This article discusses sports and highlights that it can be optimized with simple heuristics.,1,93,14,0.010752688172043012,0.0
+The following summary on entertainment shows costs can vary greatly depending on implementation. Implementation details matter a lot here. users report a mixed set of outcomes,1,175,26,0.011428571428571429,0.07692307692307687
+My personal opinion on travel is that there are trade-offs to consider.,0,71,12,0.028169014084507043,0.0
+"In my experience, food often leads to there are trade-offs to consider. Community feedback will shape future developments.",0,122,18,0.03278688524590164,0.05555555555555558
+This article discusses sports and highlights that it can be optimized with simple heuristics.,1,93,14,0.010752688172043012,0.0
+This article discusses lifestyle and highlights that it improves efficiency significantly. Further investigation is warranted.,1,126,15,0.015873015873015872,0.0
+A concise overview of lifestyle: privacy concerns remain a top challenge. This could change as new data becomes available. it requires more data for conclusive evidence,1,168,26,0.017857142857142856,0.07692307692307687
+This article discusses health and highlights that the results are promising but preliminary.,1,92,13,0.010869565217391304,0.0
+I recently experienced finance in my day-to-day life and found that it requires more data for conclusive evidence.,0,114,18,0.02631578947368421,0.0
+"As someone who follows education, I believe it improves efficiency significantly.",0,81,11,0.024691358024691357,0.0
+"After trying several approaches related to entertainment, I noticed it improves efficiency significantly.",0,105,13,0.01904761904761905,0.0
+"As someone who follows entertainment, I believe it improves efficiency significantly. This could change as new data becomes available.",0,134,19,0.022388059701492536,0.052631578947368474
+"As someone who follows health, I believe privacy concerns remain a top challenge. I would love to hear others' thoughts on this.",0,128,22,0.03125,0.045454545454545414
+My personal opinion on health is that the results are promising but preliminary. Community feedback will shape future developments. it can be optimized with simple heuristics costs can vary greatly depending on implementation it can be optimized with simple heuristics,0,268,40,0.007462686567164179,0.22499999999999998
+Research-style summary on health suggests costs can vary greatly depending on implementation.,1,93,12,0.021505376344086023,0.08333333333333337
+The following summary on science shows the results are promising but preliminary. This could change as new data becomes available.,1,130,20,0.015384615384615385,0.050000000000000044
+Research-style summary on science suggests adoption increases with better education.,1,84,10,0.023809523809523808,0.0
+Research-style summary on food suggests it improves efficiency significantly. it requires more data for conclusive evidence,1,123,16,0.016260162601626018,0.0625
+My personal opinion on travel is that the community response has been overwhelmingly positive. I would love to hear others' thoughts on this.,0,141,23,0.02127659574468085,0.04347826086956519
+My personal opinion on food is that privacy concerns remain a top challenge. This could change as new data becomes available.,0,125,21,0.016,0.0
+This article discusses finance and highlights that it requires more data for conclusive evidence.,1,97,14,0.010309278350515464,0.0
+"In my experience, entertainment often leads to costs can vary greatly depending on implementation.",0,98,14,0.02040816326530612,0.0
+"As someone who follows science, I believe the results are promising but preliminary.",0,84,13,0.023809523809523808,0.0
+Analysis indicates that science is associated with costs can vary greatly depending on implementation.,1,102,14,0.00980392156862745,0.0
+I recently experienced health in my day-to-day life and found that there are trade-offs to consider.,0,100,16,0.04,0.0
+"After trying several approaches related to sports, I noticed the community response has been overwhelmingly positive. it requires more data for conclusive evidence the community response has been overwhelmingly positive",0,219,30,0.0091324200913242,0.19999999999999996
+"As someone who follows lifestyle, I believe the community response has been overwhelmingly positive.",0,100,14,0.02,0.0
+A concise overview of entertainment: there are trade-offs to consider. Community feedback will shape future developments.,1,121,16,0.03305785123966942,0.0
+This article discusses science and highlights that there are trade-offs to consider.,1,84,12,0.023809523809523808,0.0
+The following summary on food shows it can be optimized with simple heuristics. Further investigation is warranted.,1,115,17,0.017391304347826087,0.0
+"As someone who follows sports, I believe privacy concerns remain a top challenge. Further investigation is warranted.",0,117,17,0.02564102564102564,0.0
+Analysis indicates that science is associated with privacy concerns remain a top challenge.,1,91,13,0.01098901098901099,0.0
+This article discusses sports and highlights that privacy concerns remain a top challenge.,1,90,13,0.011111111111111112,0.0
+This article discusses finance and highlights that adoption increases with better education. Community feedback will shape future developments.,1,143,18,0.013986013986013986,0.0
+"After trying several approaches related to travel, I noticed the community response has been overwhelmingly positive.",0,117,16,0.017094017094017096,0.0
+"As someone who follows finance, I believe it improves efficiency significantly. Community feedback will shape future developments.",0,130,17,0.023076923076923078,0.0
+My personal opinion on entertainment is that costs can vary greatly depending on implementation.,0,96,14,0.010416666666666666,0.0714285714285714
+"In my experience, health often leads to costs can vary greatly depending on implementation. Community feedback will shape future developments.",0,142,20,0.02112676056338028,0.0
+This article discusses science and highlights that the community response has been overwhelmingly positive.,1,107,14,0.009345794392523364,0.0
+Analysis indicates that science is associated with costs can vary greatly depending on implementation.,1,102,14,0.00980392156862745,0.0
+My personal opinion on technology is that costs can vary greatly depending on implementation.,0,93,14,0.010752688172043012,0.0714285714285714
+This article discusses finance and highlights that it can be optimized with simple heuristics.,1,94,14,0.010638297872340425,0.0
+"After trying several approaches related to finance, I noticed adoption increases with better education.",0,103,14,0.019417475728155338,0.0
+"As someone who follows food, I believe it can be optimized with simple heuristics.",0,82,14,0.024390243902439025,0.0
+My personal opinion on technology is that the results are promising but preliminary.,0,84,13,0.011904761904761904,0.0
+My personal opinion on education is that adoption increases with better education.,0,82,12,0.012195121951219513,0.0
+Analysis indicates that lifestyle is associated with it requires more data for conclusive evidence.,1,99,14,0.010101010101010102,0.0
+My personal opinion on sports is that it improves efficiency significantly.,0,75,11,0.013333333333333334,0.0
+A concise overview of lifestyle: the results are promising but preliminary.,1,75,11,0.02666666666666667,0.0
+A concise overview of finance: the community response has been overwhelmingly positive.,1,87,12,0.022988505747126436,0.0
+I recently experienced technology in my day-to-day life and found that the community response has been overwhelmingly positive. Community feedback will shape future developments.,0,178,24,0.02247191011235955,0.04166666666666663
+"After trying several approaches related to entertainment, I noticed the community response has been overwhelmingly positive.",0,124,16,0.016129032258064516,0.0
+This article discusses education and highlights that costs can vary greatly depending on implementation.,1,104,14,0.009615384615384616,0.0
+The following summary on technology shows costs can vary greatly depending on implementation. the community response has been overwhelmingly positive,1,149,20,0.006711409395973154,0.09999999999999998
+The following summary on science shows it requires more data for conclusive evidence. Community feedback will shape future developments.,1,136,19,0.014705882352941176,0.0
+A concise overview of sports: the community response has been overwhelmingly positive. Community feedback will shape future developments. it requires more data for conclusive evidence,1,183,25,0.01639344262295082,0.040000000000000036
+The following summary on food shows the community response has been overwhelmingly positive.,1,92,13,0.010869565217391304,0.07692307692307687
+I recently experienced health in my day-to-day life and found that adoption increases with better education.,0,108,16,0.027777777777777776,0.0
+"As someone who follows entertainment, I believe costs can vary greatly depending on implementation.",0,99,14,0.020202020202020204,0.0
+The following summary on health shows costs can vary greatly depending on implementation.,1,89,13,0.011235955056179775,0.07692307692307687
+"In my experience, health often leads to adoption increases with better education. Community feedback will shape future developments.",0,132,18,0.022727272727272728,0.0
+This article discusses sports and highlights that costs can vary greatly depending on implementation.,1,101,14,0.009900990099009901,0.0
+Research-style summary on education suggests the results are promising but preliminary.,1,87,11,0.022988505747126436,0.0
+My personal opinion on education is that it improves efficiency significantly. costs can vary greatly depending on implementation the results are promising but preliminary the community response has been overwhelmingly positive,0,227,31,0.004405286343612335,0.06451612903225812
+"After trying several approaches related to travel, I noticed costs can vary greatly depending on implementation. This could change as new data becomes available.",0,161,24,0.018633540372670808,0.0
+My personal opinion on health is that costs can vary greatly depending on implementation. Further investigation is warranted.,0,125,18,0.016,0.11111111111111116
+"As someone who follows education, I believe costs can vary greatly depending on implementation.",0,95,14,0.021052631578947368,0.0
+Analysis indicates that technology is associated with it can be optimized with simple heuristics. I would love to hear others' thoughts on this.,1,144,23,0.020833333333333332,0.04347826086956519
+Research-style summary on finance suggests the community response has been overwhelmingly positive.,1,99,12,0.020202020202020204,0.0
+A concise overview of finance: adoption increases with better education.,1,72,10,0.027777777777777776,0.0
+"After trying several approaches related to science, I noticed adoption increases with better education.",0,103,14,0.019417475728155338,0.0
+"After trying several approaches related to sports, I noticed it requires more data for conclusive evidence.",0,107,16,0.018691588785046728,0.0
+My personal opinion on sports is that there are trade-offs to consider. privacy concerns remain a top challenge the community response has been overwhelmingly positive,0,167,25,0.011976047904191617,0.0
+"As someone who follows science, I believe it requires more data for conclusive evidence.",0,88,14,0.022727272727272728,0.0
+The following summary on food shows costs can vary greatly depending on implementation.,1,87,13,0.011494252873563218,0.07692307692307687
+My personal opinion on entertainment is that users report a mixed set of outcomes. it requires more data for conclusive evidence,0,128,21,0.0078125,0.0
+This article discusses science and highlights that privacy concerns remain a top challenge.,1,91,13,0.01098901098901099,0.0
+"As someone who follows technology, I believe it improves efficiency significantly. This could change as new data becomes available.",0,131,19,0.022900763358778626,0.052631578947368474
+A concise overview of travel: the results are promising but preliminary.,1,72,11,0.027777777777777776,0.0
+This article discusses food and highlights that it can be optimized with simple heuristics.,1,91,14,0.01098901098901099,0.0
+"After trying several approaches related to science, I noticed it improves efficiency significantly. Community feedback will shape future developments. costs can vary greatly depending on implementation",0,201,26,0.014925373134328358,0.0
+My personal opinion on food is that costs can vary greatly depending on implementation.,0,87,14,0.011494252873563218,0.0714285714285714
+A concise overview of entertainment: users report a mixed set of outcomes.,1,74,12,0.02702702702702703,0.16666666666666663
+A concise overview of lifestyle: costs can vary greatly depending on implementation.,1,84,12,0.023809523809523808,0.0
+The following summary on health shows there are trade-offs to consider.,1,71,11,0.028169014084507043,0.0
+The following summary on science shows users report a mixed set of outcomes.,1,76,13,0.013157894736842105,0.0
+I recently experienced science in my day-to-day life and found that it requires more data for conclusive evidence.,0,114,18,0.02631578947368421,0.0
+This article discusses education and highlights that it can be optimized with simple heuristics. I would love to hear others' thoughts on this.,1,143,23,0.02097902097902098,0.0
+The following summary on science shows the community response has been overwhelmingly positive.,1,95,13,0.010526315789473684,0.07692307692307687
+My personal opinion on food is that it improves efficiency significantly.,0,73,11,0.0136986301369863,0.0
+"As someone who follows travel, I believe users report a mixed set of outcomes. privacy concerns remain a top challenge privacy concerns remain a top challenge there are trade-offs to consider",0,191,31,0.015706806282722512,0.22580645161290325
+A concise overview of education: it requires more data for conclusive evidence. This could change as new data becomes available.,1,128,20,0.0234375,0.050000000000000044
+The following summary on lifestyle shows adoption increases with better education.,1,82,11,0.012195121951219513,0.0
+Analysis indicates that technology is associated with users report a mixed set of outcomes.,1,91,14,0.01098901098901099,0.0
+"As someone who follows lifestyle, I believe costs can vary greatly depending on implementation. Community feedback will shape future developments.",0,146,20,0.02054794520547945,0.0
+"In my experience, education often leads to it improves efficiency significantly. This could change as new data becomes available.",0,129,19,0.023255813953488372,0.0
+"As someone who follows science, I believe costs can vary greatly depending on implementation. there are trade-offs to consider",0,126,19,0.023809523809523808,0.0
+This article discusses science and highlights that there are trade-offs to consider. Community feedback will shape future developments.,1,135,18,0.022222222222222223,0.0
+This article discusses entertainment and highlights that it requires more data for conclusive evidence.,1,103,14,0.009708737864077669,0.0
+This article discusses sports and highlights that it requires more data for conclusive evidence.,1,96,14,0.010416666666666666,0.0
+This article discusses entertainment and highlights that users report a mixed set of outcomes.,1,94,14,0.010638297872340425,0.0
+"As someone who follows food, I believe the results are promising but preliminary.",0,81,13,0.024691358024691357,0.0
+The following summary on science shows it improves efficiency significantly.,1,76,10,0.013157894736842105,0.0
+A concise overview of sports: it requires more data for conclusive evidence.,1,76,12,0.02631578947368421,0.0
+"In my experience, lifestyle often leads to it improves efficiency significantly.",0,80,11,0.025,0.0
+This article discusses health and highlights that it can be optimized with simple heuristics.,1,93,14,0.010752688172043012,0.0
+My personal opinion on sports is that it requires more data for conclusive evidence.,0,84,14,0.011904761904761904,0.0
+"After trying several approaches related to finance, I noticed it improves efficiency significantly.",0,99,13,0.020202020202020204,0.0
+My personal opinion on health is that privacy concerns remain a top challenge.,0,78,13,0.01282051282051282,0.0
+"As someone who follows sports, I believe there are trade-offs to consider.",0,74,12,0.04054054054054054,0.0
+A concise overview of food: costs can vary greatly depending on implementation.,1,79,12,0.02531645569620253,0.0
+I recently experienced food in my day-to-day life and found that it can be optimized with simple heuristics.,0,108,18,0.027777777777777776,0.0
+"In my experience, technology often leads to there are trade-offs to consider. Further investigation is warranted.",0,113,16,0.035398230088495575,0.0625
+"In my experience, education often leads to costs can vary greatly depending on implementation.",0,94,14,0.02127659574468085,0.0
+This article discusses food and highlights that there are trade-offs to consider. This could change as new data becomes available.,1,130,20,0.023076923076923078,0.050000000000000044
+I recently experienced science in my day-to-day life and found that there are trade-offs to consider. the results are promising but preliminary,0,143,22,0.027972027972027972,0.045454545454545414
+The following summary on lifestyle shows the results are promising but preliminary.,1,83,12,0.012048192771084338,0.08333333333333337
+"As someone who follows technology, I believe costs can vary greatly depending on implementation. it improves efficiency significantly users report a mixed set of outcomes",0,170,25,0.011764705882352941,0.0
+"As someone who follows lifestyle, I believe it can be optimized with simple heuristics. Community feedback will shape future developments.",0,138,20,0.021739130434782608,0.0
+My personal opinion on education is that costs can vary greatly depending on implementation. Community feedback will shape future developments.,0,143,20,0.013986013986013986,0.050000000000000044
+A concise overview of entertainment: privacy concerns remain a top challenge. Further investigation is warranted. adoption increases with better education,1,154,20,0.01948051948051948,0.050000000000000044
+Analysis indicates that lifestyle is associated with it can be optimized with simple heuristics. there are trade-offs to consider the results are promising but preliminary the results are promising but preliminary,1,213,31,0.009389671361502348,0.25806451612903225
+My personal opinion on science is that the community response has been overwhelmingly positive.,0,95,14,0.010526315789473684,0.0
+The following summary on technology shows privacy concerns remain a top challenge. the community response has been overwhelmingly positive,1,138,19,0.007246376811594203,0.052631578947368474
+The following summary on lifestyle shows there are trade-offs to consider.,1,74,11,0.02702702702702703,0.0
+I recently experienced health in my day-to-day life and found that the community response has been overwhelmingly positive. it improves efficiency significantly,0,160,22,0.01875,0.0
+"After trying several approaches related to science, I noticed privacy concerns remain a top challenge. I would love to hear others' thoughts on this.",0,149,24,0.026845637583892617,0.08333333333333337
+"In my experience, technology often leads to there are trade-offs to consider.",0,77,12,0.03896103896103896,0.08333333333333337
+Research-style summary on sports suggests adoption increases with better education.,1,83,10,0.024096385542168676,0.0
+"In my experience, travel often leads to it improves efficiency significantly. Community feedback will shape future developments.",0,128,17,0.0234375,0.0
+"As someone who follows health, I believe it improves efficiency significantly.",0,78,11,0.02564102564102564,0.0
+Analysis indicates that entertainment is associated with the community response has been overwhelmingly positive.,1,113,14,0.008849557522123894,0.0
+This article discusses sports and highlights that adoption increases with better education.,1,91,12,0.01098901098901099,0.0
+Research-style summary on education suggests users report a mixed set of outcomes.,1,82,12,0.024390243902439025,0.0
+Research-style summary on entertainment suggests adoption increases with better education.,1,90,10,0.022222222222222223,0.0
+"In my experience, travel often leads to it requires more data for conclusive evidence. adoption increases with better education the results are promising but preliminary it requires more data for conclusive evidence",0,215,32,0.009302325581395349,0.1875
+I recently experienced food in my day-to-day life and found that the results are promising but preliminary. costs can vary greatly depending on implementation users report a mixed set of outcomes users report a mixed set of outcomes,0,232,38,0.01293103448275862,0.1842105263157895
+A concise overview of travel: it improves efficiency significantly.,1,67,9,0.029850746268656716,0.0
+A concise overview of science: the community response has been overwhelmingly positive.,1,87,12,0.022988505747126436,0.0
+My personal opinion on health is that privacy concerns remain a top challenge.,0,78,13,0.01282051282051282,0.0
+Analysis indicates that finance is associated with it improves efficiency significantly.,1,88,11,0.011363636363636364,0.0
+The following summary on sports shows there are trade-offs to consider. I would love to hear others' thoughts on this.,1,118,20,0.03389830508474576,0.09999999999999998
+Analysis indicates that entertainment is associated with it requires more data for conclusive evidence.,1,103,14,0.009708737864077669,0.0
+Research-style summary on food suggests privacy concerns remain a top challenge.,1,80,11,0.025,0.0
+A concise overview of technology: costs can vary greatly depending on implementation.,1,85,12,0.023529411764705882,0.0
+"As someone who follows travel, I believe it can be optimized with simple heuristics.",0,84,14,0.023809523809523808,0.0
+"As someone who follows finance, I believe privacy concerns remain a top challenge.",0,82,13,0.024390243902439025,0.0
+The following summary on entertainment shows it improves efficiency significantly. the community response has been overwhelmingly positive the community response has been overwhelmingly positive,1,194,24,0.005154639175257732,0.33333333333333337
+The following summary on sports shows it improves efficiency significantly. I would love to hear others' thoughts on this.,1,122,19,0.02459016393442623,0.052631578947368474
+"In my experience, food often leads to the results are promising but preliminary.",0,80,13,0.025,0.0
+The following summary on travel shows users report a mixed set of outcomes.,1,75,13,0.013333333333333334,0.0
+A concise overview of food: the community response has been overwhelmingly positive. it requires more data for conclusive evidence,1,130,19,0.015384615384615385,0.0
+A concise overview of lifestyle: it improves efficiency significantly. I would love to hear others' thoughts on this.,1,117,18,0.03418803418803419,0.0
+This article discusses food and highlights that privacy concerns remain a top challenge.,1,88,13,0.011363636363636364,0.0
+"In my experience, health often leads to the results are promising but preliminary.",0,82,13,0.024390243902439025,0.0
+I recently experienced entertainment in my day-to-day life and found that there are trade-offs to consider.,0,107,16,0.037383177570093455,0.0
+"In my experience, technology often leads to it requires more data for conclusive evidence. I would love to hear others' thoughts on this.",0,137,23,0.029197080291970802,0.04347826086956519
+This article discusses finance and highlights that privacy concerns remain a top challenge.,1,91,13,0.01098901098901099,0.0
+"After trying several approaches related to finance, I noticed the community response has been overwhelmingly positive. Community feedback will shape future developments.",0,169,22,0.01775147928994083,0.045454545454545414
+Research-style summary on entertainment suggests users report a mixed set of outcomes. Community feedback will shape future developments.,1,137,18,0.021897810218978103,0.0
+This article discusses science and highlights that privacy concerns remain a top challenge.,1,91,13,0.01098901098901099,0.0
+"After trying several approaches related to finance, I noticed there are trade-offs to consider.",0,95,14,0.031578947368421054,0.0714285714285714
+This article discusses travel and highlights that users report a mixed set of outcomes. costs can vary greatly depending on implementation it improves efficiency significantly,1,175,25,0.005714285714285714,0.0
+This article discusses food and highlights that users report a mixed set of outcomes.,1,85,14,0.011764705882352941,0.0
+Research-style summary on finance suggests it can be optimized with simple heuristics.,1,86,12,0.023255813953488372,0.0
+"After trying several approaches related to food, I noticed the community response has been overwhelmingly positive.",0,115,16,0.017391304347826087,0.0
+"As someone who follows education, I believe it requires more data for conclusive evidence.",0,90,14,0.022222222222222223,0.0
+"As someone who follows food, I believe adoption increases with better education.",0,80,12,0.025,0.0
+This article discusses lifestyle and highlights that it improves efficiency significantly.,1,90,11,0.011111111111111112,0.0
+A concise overview of lifestyle: there are trade-offs to consider. adoption increases with better education,1,107,15,0.028037383177570093,0.0
+I recently experienced entertainment in my day-to-day life and found that the community response has been overwhelmingly positive. Community feedback will shape future developments.,0,181,24,0.022099447513812154,0.04166666666666663
+"In my experience, science often leads to users report a mixed set of outcomes.",0,78,14,0.02564102564102564,0.0
+"After trying several approaches related to finance, I noticed it requires more data for conclusive evidence. Further investigation is warranted.",0,144,20,0.020833333333333332,0.0
+Analysis indicates that food is associated with the community response has been overwhelmingly positive.,1,104,14,0.009615384615384616,0.0
+"After trying several approaches related to entertainment, I noticed it improves efficiency significantly.",0,105,13,0.01904761904761905,0.0
+A concise overview of science: costs can vary greatly depending on implementation.,1,82,12,0.024390243902439025,0.0
+I recently experienced sports in my day-to-day life and found that the community response has been overwhelmingly positive.,0,123,18,0.024390243902439025,0.0
+A concise overview of entertainment: it requires more data for conclusive evidence.,1,83,12,0.024096385542168676,0.0
+I recently experienced education in my day-to-day life and found that adoption increases with better education.,0,111,16,0.02702702702702703,0.0
+I recently experienced finance in my day-to-day life and found that users report a mixed set of outcomes. Implementation details matter a lot here.,0,147,24,0.027210884353741496,0.04166666666666663
+"In my experience, food often leads to costs can vary greatly depending on implementation. Further investigation is warranted.",0,125,18,0.024,0.0
+My personal opinion on health is that it improves efficiency significantly. Further investigation is warranted.,0,111,15,0.018018018018018018,0.06666666666666665
+Research-style summary on food suggests the community response has been overwhelmingly positive. I would love to hear others' thoughts on this.,1,143,21,0.027972027972027972,0.04761904761904767
+Analysis indicates that health is associated with it improves efficiency significantly.,1,87,11,0.011494252873563218,0.0
+A concise overview of lifestyle: it requires more data for conclusive evidence. Further investigation is warranted.,1,115,16,0.02608695652173913,0.0
+"In my experience, finance often leads to adoption increases with better education. I would love to hear others' thoughts on this.",0,129,21,0.031007751937984496,0.04761904761904767
+My personal opinion on sports is that it requires more data for conclusive evidence. Further investigation is warranted. there are trade-offs to consider privacy concerns remain a top challenge privacy concerns remain a top challenge,0,233,35,0.012875536480686695,0.19999999999999996
+"After trying several approaches related to sports, I noticed users report a mixed set of outcomes.",0,98,16,0.02040816326530612,0.0
+"As someone who follows finance, I believe it requires more data for conclusive evidence. Further investigation is warranted.",0,124,18,0.024193548387096774,0.0
+Analysis indicates that food is associated with there are trade-offs to consider.,1,81,12,0.024691358024691357,0.0
+Analysis indicates that finance is associated with the results are promising but preliminary. I would love to hear others' thoughts on this.,1,140,22,0.02142857142857143,0.0
+I recently experienced sports in my day-to-day life and found that costs can vary greatly depending on implementation. Further investigation is warranted.,0,154,22,0.025974025974025976,0.0
+"After trying several approaches related to science, I noticed adoption increases with better education. I would love to hear others' thoughts on this.",0,150,23,0.02666666666666667,0.08695652173913049
+"As someone who follows technology, I believe it requires more data for conclusive evidence. I would love to hear others' thoughts on this.",0,138,23,0.028985507246376812,0.04347826086956519
+I recently experienced travel in my day-to-day life and found that adoption increases with better education.,0,108,16,0.027777777777777776,0.0
+I recently experienced finance in my day-to-day life and found that adoption increases with better education.,0,109,16,0.027522935779816515,0.0
+"After trying several approaches related to food, I noticed adoption increases with better education.",0,100,14,0.02,0.0
+Research-style summary on education suggests privacy concerns remain a top challenge.,1,85,11,0.023529411764705882,0.0
+Research-style summary on sports suggests it can be optimized with simple heuristics. Further investigation is warranted.,1,121,16,0.024793388429752067,0.0
+This article discusses technology and highlights that the community response has been overwhelmingly positive. This could change as new data becomes available.,1,159,22,0.012578616352201259,0.045454545454545414
+Analysis indicates that health is associated with it improves efficiency significantly.,1,87,11,0.011494252873563218,0.0
+I recently experienced science in my day-to-day life and found that it can be optimized with simple heuristics. I would love to hear others' thoughts on this.,0,158,27,0.03164556962025317,0.03703703703703709
+A concise overview of health: the community response has been overwhelmingly positive.,1,86,12,0.023255813953488372,0.0
+The following summary on technology shows it requires more data for conclusive evidence. I would love to hear others' thoughts on this.,1,135,22,0.022222222222222223,0.045454545454545414
+I recently experienced finance in my day-to-day life and found that users report a mixed set of outcomes.,0,105,18,0.02857142857142857,0.0
+The following summary on entertainment shows it can be optimized with simple heuristics. I would love to hear others' thoughts on this.,1,135,22,0.022222222222222223,0.045454545454545414
+Research-style summary on finance suggests costs can vary greatly depending on implementation.,1,94,12,0.02127659574468085,0.08333333333333337
+Analysis indicates that sports is associated with it can be optimized with simple heuristics.,1,93,14,0.010752688172043012,0.0714285714285714
+My personal opinion on entertainment is that adoption increases with better education. costs can vary greatly depending on implementation costs can vary greatly depending on implementation,0,188,26,0.005319148936170213,0.3076923076923077
+Analysis indicates that food is associated with the community response has been overwhelmingly positive.,1,104,14,0.009615384615384616,0.0
+"After trying several approaches related to lifestyle, I noticed the results are promising but preliminary.",0,106,15,0.018867924528301886,0.0
+Research-style summary on technology suggests the community response has been overwhelmingly positive. Further investigation is warranted.,1,138,16,0.021739130434782608,0.0
+"As someone who follows sports, I believe users report a mixed set of outcomes.",0,78,14,0.02564102564102564,0.0
+"After trying several approaches related to health, I noticed the results are promising but preliminary.",0,103,15,0.019417475728155338,0.0
+This article discusses science and highlights that it can be optimized with simple heuristics.,1,94,14,0.010638297872340425,0.0
+The following summary on lifestyle shows the results are promising but preliminary. Community feedback will shape future developments.,1,134,18,0.014925373134328358,0.05555555555555558
+"After trying several approaches related to finance, I noticed it can be optimized with simple heuristics. privacy concerns remain a top challenge",0,145,22,0.013793103448275862,0.0
+"In my experience, sports often leads to the community response has been overwhelmingly positive.",0,96,14,0.020833333333333332,0.0
+My personal opinion on science is that it can be optimized with simple heuristics. Community feedback will shape future developments.,0,133,20,0.015037593984962405,0.0
+This article discusses education and highlights that privacy concerns remain a top challenge.,1,93,13,0.010752688172043012,0.0
+Research-style summary on food suggests it improves efficiency significantly. it improves efficiency significantly,1,114,13,0.017543859649122806,0.23076923076923073
+"After trying several approaches related to science, I noticed it can be optimized with simple heuristics.",0,105,16,0.01904761904761905,0.0
+"In my experience, education often leads to there are trade-offs to consider.",0,76,12,0.039473684210526314,0.08333333333333337
+"As someone who follows lifestyle, I believe there are trade-offs to consider. This could change as new data becomes available.",0,126,20,0.031746031746031744,0.050000000000000044
+"In my experience, science often leads to there are trade-offs to consider.",0,74,12,0.04054054054054054,0.08333333333333337
+My personal opinion on technology is that privacy concerns remain a top challenge. This could change as new data becomes available.,0,131,21,0.015267175572519083,0.0
+"As someone who follows food, I believe it can be optimized with simple heuristics. Implementation details matter a lot here.",0,124,20,0.024193548387096774,0.0
+"As someone who follows science, I believe the community response has been overwhelmingly positive. This could change as new data becomes available.",0,147,22,0.02040816326530612,0.045454545454545414
+My personal opinion on travel is that it can be optimized with simple heuristics.,0,81,14,0.012345679012345678,0.0
+"As someone who follows lifestyle, I believe privacy concerns remain a top challenge. Community feedback will shape future developments.",0,135,19,0.022222222222222223,0.0
+Research-style summary on entertainment suggests it improves efficiency significantly.,1,86,9,0.023255813953488372,0.0
+Research-style summary on sports suggests costs can vary greatly depending on implementation.,1,93,12,0.021505376344086023,0.08333333333333337
+A concise overview of sports: it can be optimized with simple heuristics. I would love to hear others' thoughts on this.,1,120,21,0.03333333333333333,0.0
+My personal opinion on lifestyle is that it can be optimized with simple heuristics.,0,84,14,0.011904761904761904,0.0
+My personal opinion on sports is that it improves efficiency significantly. the results are promising but preliminary,0,117,17,0.008547008547008548,0.0
+This article discusses finance and highlights that the community response has been overwhelmingly positive. I would love to hear others' thoughts on this. costs can vary greatly depending on implementation,1,205,30,0.014634146341463415,0.033333333333333326
+Analysis indicates that travel is associated with the community response has been overwhelmingly positive.,1,106,14,0.009433962264150943,0.0
+The following summary on finance shows the community response has been overwhelmingly positive.,1,95,13,0.010526315789473684,0.07692307692307687
+Research-style summary on science suggests it requires more data for conclusive evidence.,1,89,12,0.02247191011235955,0.0
+A concise overview of science: it improves efficiency significantly.,1,68,9,0.029411764705882353,0.0
+My personal opinion on health is that users report a mixed set of outcomes.,0,75,14,0.013333333333333334,0.0
+This article discusses sports and highlights that costs can vary greatly depending on implementation.,1,101,14,0.009900990099009901,0.0
+I recently experienced technology in my day-to-day life and found that it can be optimized with simple heuristics. This could change as new data becomes available.,0,163,26,0.024539877300613498,0.0
+Analysis indicates that technology is associated with costs can vary greatly depending on implementation.,1,105,14,0.009523809523809525,0.0
+Research-style summary on lifestyle suggests the results are promising but preliminary. Implementation details matter a lot here. there are trade-offs to consider the results are promising but preliminary costs can vary greatly depending on implementation,1,255,35,0.01568627450980392,0.22857142857142854
+My personal opinion on entertainment is that the results are promising but preliminary. it can be optimized with simple heuristics users report a mixed set of outcomes,0,167,27,0.005988023952095809,0.0
+Analysis indicates that lifestyle is associated with adoption increases with better education.,1,94,12,0.010638297872340425,0.08333333333333337
+Research-style summary on finance suggests privacy concerns remain a top challenge. Further investigation is warranted.,1,119,15,0.025210084033613446,0.0
+A concise overview of travel: there are trade-offs to consider. the results are promising but preliminary it requires more data for conclusive evidence,1,151,23,0.019867549668874173,0.04347826086956519
+"After trying several approaches related to finance, I noticed it can be optimized with simple heuristics.",0,105,16,0.01904761904761905,0.0
+This article discusses travel and highlights that the results are promising but preliminary.,1,92,13,0.010869565217391304,0.0
+I recently experienced finance in my day-to-day life and found that users report a mixed set of outcomes.,0,105,18,0.02857142857142857,0.0
+I recently experienced sports in my day-to-day life and found that it improves efficiency significantly.,0,104,15,0.028846153846153848,0.0
+I recently experienced travel in my day-to-day life and found that the community response has been overwhelmingly positive.,0,123,18,0.024390243902439025,0.0
+I recently experienced sports in my day-to-day life and found that adoption increases with better education.,0,108,16,0.027777777777777776,0.0
+This article discusses lifestyle and highlights that privacy concerns remain a top challenge.,1,93,13,0.010752688172043012,0.0
+"As someone who follows sports, I believe the community response has been overwhelmingly positive.",0,97,14,0.020618556701030927,0.0
+"After trying several approaches related to technology, I noticed the results are promising but preliminary.",0,107,15,0.018691588785046728,0.0
+Analysis indicates that food is associated with the community response has been overwhelmingly positive.,1,104,14,0.009615384615384616,0.0
+Analysis indicates that lifestyle is associated with it improves efficiency significantly.,1,90,11,0.011111111111111112,0.0
+Research-style summary on science suggests it can be optimized with simple heuristics.,1,86,12,0.023255813953488372,0.0
+This article discusses travel and highlights that costs can vary greatly depending on implementation.,1,101,14,0.009900990099009901,0.0
+"After trying several approaches related to health, I noticed the community response has been overwhelmingly positive. Implementation details matter a lot here.",0,159,22,0.018867924528301886,0.0
+The following summary on education shows it can be optimized with simple heuristics.,1,84,13,0.011904761904761904,0.0
+This article discusses entertainment and highlights that it improves efficiency significantly.,1,94,11,0.010638297872340425,0.0
+A concise overview of lifestyle: users report a mixed set of outcomes.,1,70,12,0.02857142857142857,0.16666666666666663
+Analysis indicates that food is associated with users report a mixed set of outcomes.,1,85,14,0.011764705882352941,0.0
+Research-style summary on finance suggests adoption increases with better education.,1,84,10,0.023809523809523808,0.0
+The following summary on entertainment shows the results are promising but preliminary. Community feedback will shape future developments.,1,138,18,0.014492753623188406,0.05555555555555558
+Research-style summary on finance suggests the community response has been overwhelmingly positive.,1,99,12,0.020202020202020204,0.0
+I recently experienced food in my day-to-day life and found that it can be optimized with simple heuristics.,0,108,18,0.027777777777777776,0.0
+Analysis indicates that science is associated with it improves efficiency significantly.,1,88,11,0.011363636363636364,0.0
+The following summary on health shows privacy concerns remain a top challenge.,1,78,12,0.01282051282051282,0.0
+Research-style summary on education suggests it can be optimized with simple heuristics.,1,88,12,0.022727272727272728,0.0
+Research-style summary on travel suggests privacy concerns remain a top challenge. I would love to hear others' thoughts on this.,1,129,20,0.031007751937984496,0.050000000000000044
+I recently experienced sports in my day-to-day life and found that there are trade-offs to consider. Implementation details matter a lot here. the results are promising but preliminary privacy concerns remain a top challenge the community response has been overwhelmingly positive,0,280,41,0.017857142857142856,0.07317073170731703
+Research-style summary on technology suggests the community response has been overwhelmingly positive. I would love to hear others' thoughts on this.,1,149,21,0.026845637583892617,0.04761904761904767
+"As someone who follows health, I believe it can be optimized with simple heuristics.",0,84,14,0.023809523809523808,0.0
+"In my experience, finance often leads to adoption increases with better education.",0,82,12,0.024390243902439025,0.0
+I recently experienced lifestyle in my day-to-day life and found that there are trade-offs to consider.,0,103,16,0.038834951456310676,0.0
+Analysis indicates that entertainment is associated with privacy concerns remain a top challenge.,1,97,13,0.010309278350515464,0.0
+Research-style summary on lifestyle suggests it improves efficiency significantly.,1,82,9,0.024390243902439025,0.0
+The following summary on travel shows the results are promising but preliminary.,1,80,12,0.0125,0.08333333333333337
+"After trying several approaches related to sports, I noticed adoption increases with better education.",0,102,14,0.0196078431372549,0.0
+The following summary on education shows costs can vary greatly depending on implementation.,1,92,13,0.010869565217391304,0.07692307692307687
+"After trying several approaches related to sports, I noticed there are trade-offs to consider. there are trade-offs to consider",0,127,19,0.031496062992125984,0.26315789473684215
+"After trying several approaches related to education, I noticed the results are promising but preliminary. it requires more data for conclusive evidence",0,152,22,0.013157894736842105,0.0
+Analysis indicates that lifestyle is associated with it can be optimized with simple heuristics.,1,96,14,0.010416666666666666,0.0714285714285714
+Analysis indicates that health is associated with users report a mixed set of outcomes. I would love to hear others' thoughts on this.,1,134,23,0.022388059701492536,0.0
+"After trying several approaches related to travel, I noticed users report a mixed set of outcomes. This could change as new data becomes available.",0,147,24,0.02040816326530612,0.0
+This article discusses health and highlights that it improves efficiency significantly. costs can vary greatly depending on implementation it can be optimized with simple heuristics it improves efficiency significantly,1,218,29,0.0045871559633027525,0.1724137931034483
+I recently experienced travel in my day-to-day life and found that costs can vary greatly depending on implementation.,0,118,18,0.025423728813559324,0.0
+Analysis indicates that science is associated with users report a mixed set of outcomes.,1,88,14,0.011363636363636364,0.0
+This article discusses science and highlights that users report a mixed set of outcomes.,1,88,14,0.011363636363636364,0.0
+Research-style summary on lifestyle suggests it can be optimized with simple heuristics.,1,88,12,0.022727272727272728,0.0
+A concise overview of technology: the community response has been overwhelmingly positive.,1,90,12,0.022222222222222223,0.0
+The following summary on food shows costs can vary greatly depending on implementation.,1,87,13,0.011494252873563218,0.07692307692307687
+"In my experience, lifestyle often leads to adoption increases with better education. I would love to hear others' thoughts on this.",0,131,21,0.030534351145038167,0.04761904761904767
+My personal opinion on entertainment is that it requires more data for conclusive evidence.,0,91,14,0.01098901098901099,0.0
+A concise overview of entertainment: the results are promising but preliminary.,1,79,11,0.02531645569620253,0.0
+The following summary on travel shows it requires more data for conclusive evidence. Further investigation is warranted.,1,120,17,0.016666666666666666,0.0
+My personal opinion on finance is that the results are promising but preliminary.,0,81,13,0.012345679012345678,0.0
+This article discusses travel and highlights that the results are promising but preliminary. I would love to hear others' thoughts on this. the results are promising but preliminary adoption increases with better education there are trade-offs to consider,1,255,38,0.01568627450980392,0.1842105263157895
+My personal opinion on sports is that the results are promising but preliminary. adoption increases with better education it requires more data for conclusive evidence,0,167,25,0.005988023952095809,0.0
+"In my experience, sports often leads to privacy concerns remain a top challenge. it can be optimized with simple heuristics the results are promising but preliminary the community response has been overwhelmingly positive",0,221,33,0.00904977375565611,0.030303030303030276
+My personal opinion on education is that the community response has been overwhelmingly positive. Further investigation is warranted.,0,133,18,0.015037593984962405,0.05555555555555558
+"In my experience, technology often leads to the community response has been overwhelmingly positive. the community response has been overwhelmingly positive there are trade-offs to consider there are trade-offs to consider",0,222,31,0.018018018018018018,0.3870967741935484
+I recently experienced food in my day-to-day life and found that privacy concerns remain a top challenge.,0,105,17,0.02857142857142857,0.0
+"In my experience, travel often leads to there are trade-offs to consider.",0,73,12,0.0410958904109589,0.08333333333333337
+This article discusses health and highlights that costs can vary greatly depending on implementation.,1,101,14,0.009900990099009901,0.0
+Analysis indicates that science is associated with adoption increases with better education.,1,92,12,0.010869565217391304,0.08333333333333337
+"In my experience, finance often leads to adoption increases with better education.",0,82,12,0.024390243902439025,0.0
+Research-style summary on science suggests the community response has been overwhelmingly positive. it improves efficiency significantly it can be optimized with simple heuristics adoption increases with better education,1,220,28,0.00909090909090909,0.0714285714285714
+"In my experience, health often leads to the results are promising but preliminary.",0,82,13,0.024390243902439025,0.0
+"After trying several approaches related to entertainment, I noticed users report a mixed set of outcomes.",0,105,16,0.01904761904761905,0.0
+"In my experience, finance often leads to there are trade-offs to consider.",0,74,12,0.04054054054054054,0.08333333333333337
+"As someone who follows technology, I believe it can be optimized with simple heuristics.",0,88,14,0.022727272727272728,0.0
+This article discusses science and highlights that the community response has been overwhelmingly positive.,1,107,14,0.009345794392523364,0.0
+"As someone who follows entertainment, I believe users report a mixed set of outcomes.",0,85,14,0.023529411764705882,0.0
+I recently experienced education in my day-to-day life and found that there are trade-offs to consider.,0,103,16,0.038834951456310676,0.0
+"As someone who follows finance, I believe the community response has been overwhelmingly positive.",0,98,14,0.02040816326530612,0.0
+I recently experienced lifestyle in my day-to-day life and found that it requires more data for conclusive evidence. This could change as new data becomes available.,0,165,26,0.024242424242424242,0.038461538461538436
+I recently experienced finance in my day-to-day life and found that costs can vary greatly depending on implementation. I would love to hear others' thoughts on this.,0,166,27,0.030120481927710843,0.07407407407407407
+"In my experience, finance often leads to it requires more data for conclusive evidence. This could change as new data becomes available.",0,136,22,0.022058823529411766,0.045454545454545414
+"After trying several approaches related to science, I noticed it requires more data for conclusive evidence.",0,108,16,0.018518518518518517,0.0
+The following summary on health shows costs can vary greatly depending on implementation.,1,89,13,0.011235955056179775,0.07692307692307687
+A concise overview of lifestyle: the community response has been overwhelmingly positive. Implementation details matter a lot here.,1,131,18,0.022900763358778626,0.05555555555555558
+This article discusses health and highlights that the results are promising but preliminary.,1,92,13,0.010869565217391304,0.0
+This article discusses finance and highlights that adoption increases with better education.,1,92,12,0.010869565217391304,0.0
+Analysis indicates that entertainment is associated with users report a mixed set of outcomes. Community feedback will shape future developments.,1,145,20,0.013793103448275862,0.0
+"After trying several approaches related to finance, I noticed the community response has been overwhelmingly positive.",0,118,16,0.01694915254237288,0.0
+A concise overview of education: adoption increases with better education. privacy concerns remain a top challenge it requires more data for conclusive evidence it requires more data for conclusive evidence,1,206,30,0.009708737864077669,0.2666666666666667
+Analysis indicates that food is associated with it improves efficiency significantly.,1,85,11,0.011764705882352941,0.0
+A concise overview of science: the community response has been overwhelmingly positive.,1,87,12,0.022988505747126436,0.0
+Analysis indicates that lifestyle is associated with privacy concerns remain a top challenge. This could change as new data becomes available.,1,142,21,0.014084507042253521,0.0
+I recently experienced finance in my day-to-day life and found that the community response has been overwhelmingly positive.,0,124,18,0.024193548387096774,0.0
+"After trying several approaches related to travel, I noticed privacy concerns remain a top challenge. This could change as new data becomes available.",0,150,23,0.02,0.0
+My personal opinion on sports is that the community response has been overwhelmingly positive. Community feedback will shape future developments.,0,145,20,0.013793103448275862,0.050000000000000044
+This article discusses science and highlights that adoption increases with better education.,1,92,12,0.010869565217391304,0.0
+Research-style summary on food suggests there are trade-offs to consider. Community feedback will shape future developments.,1,124,16,0.03225806451612903,0.0
+"As someone who follows food, I believe costs can vary greatly depending on implementation.",0,90,14,0.022222222222222223,0.0
+Research-style summary on lifestyle suggests privacy concerns remain a top challenge. it requires more data for conclusive evidence,1,131,18,0.015267175572519083,0.0
+The following summary on sports shows it improves efficiency significantly. Further investigation is warranted.,1,111,14,0.018018018018018018,0.0
+"In my experience, science often leads to it requires more data for conclusive evidence. Community feedback will shape future developments. it can be optimized with simple heuristics the community response has been overwhelmingly positive privacy concerns remain a top challenge",0,277,40,0.010830324909747292,0.050000000000000044
+Research-style summary on entertainment suggests the community response has been overwhelmingly positive. Further investigation is warranted.,1,141,16,0.02127659574468085,0.0
+Analysis indicates that finance is associated with there are trade-offs to consider.,1,84,12,0.023809523809523808,0.0
+"As someone who follows travel, I believe it requires more data for conclusive evidence.",0,87,14,0.022988505747126436,0.0
+I recently experienced technology in my day-to-day life and found that privacy concerns remain a top challenge. the results are promising but preliminary,0,153,23,0.0196078431372549,0.0
+"In my experience, food often leads to it can be optimized with simple heuristics.",0,81,14,0.024691358024691357,0.0
+This article discusses education and highlights that privacy concerns remain a top challenge.,1,93,13,0.010752688172043012,0.0
+This article discusses health and highlights that the community response has been overwhelmingly positive.,1,106,14,0.009433962264150943,0.0
+"As someone who follows education, I believe adoption increases with better education.",0,85,12,0.023529411764705882,0.0
+"As someone who follows lifestyle, I believe there are trade-offs to consider.",0,77,12,0.03896103896103896,0.0
+Analysis indicates that lifestyle is associated with privacy concerns remain a top challenge.,1,93,13,0.010752688172043012,0.0
+This article discusses technology and highlights that it requires more data for conclusive evidence. Implementation details matter a lot here.,1,142,20,0.014084507042253521,0.0
+"In my experience, finance often leads to the community response has been overwhelmingly positive.",0,97,14,0.020618556701030927,0.0
+"After trying several approaches related to sports, I noticed users report a mixed set of outcomes.",0,98,16,0.02040816326530612,0.0
+My personal opinion on sports is that costs can vary greatly depending on implementation. This could change as new data becomes available. there are trade-offs to consider costs can vary greatly depending on implementation,0,222,34,0.013513513513513514,0.20588235294117652
+This article discusses food and highlights that the results are promising but preliminary.,1,90,13,0.011111111111111112,0.0
+"After trying several approaches related to sports, I noticed the results are promising but preliminary. Community feedback will shape future developments.",0,154,21,0.01948051948051948,0.0
+This article discusses food and highlights that the community response has been overwhelmingly positive.,1,104,14,0.009615384615384616,0.0
+My personal opinion on entertainment is that adoption increases with better education.,0,86,12,0.011627906976744186,0.0
+My personal opinion on lifestyle is that adoption increases with better education. the results are promising but preliminary,0,124,18,0.008064516129032258,0.0
+Analysis indicates that education is associated with privacy concerns remain a top challenge. it can be optimized with simple heuristics it can be optimized with simple heuristics,1,179,27,0.00558659217877095,0.2962962962962963
+Research-style summary on education suggests it can be optimized with simple heuristics.,1,88,12,0.022727272727272728,0.0
+"After trying several approaches related to health, I noticed adoption increases with better education.",0,102,14,0.0196078431372549,0.0
+"After trying several approaches related to technology, I noticed users report a mixed set of outcomes.",0,102,16,0.0196078431372549,0.0
+The following summary on lifestyle shows it can be optimized with simple heuristics.,1,84,13,0.011904761904761904,0.0
+This article discusses sports and highlights that the community response has been overwhelmingly positive. it requires more data for conclusive evidence adoption increases with better education privacy concerns remain a top challenge,1,233,32,0.004291845493562232,0.0
+"As someone who follows entertainment, I believe costs can vary greatly depending on implementation. it requires more data for conclusive evidence the results are promising but preliminary",0,187,27,0.0106951871657754,0.0
+Analysis indicates that entertainment is associated with privacy concerns remain a top challenge.,1,97,13,0.010309278350515464,0.0
+"In my experience, food often leads to the community response has been overwhelmingly positive.",0,94,14,0.02127659574468085,0.0
+Analysis indicates that science is associated with there are trade-offs to consider.,1,84,12,0.023809523809523808,0.0
+"As someone who follows travel, I believe it can be optimized with simple heuristics. I would love to hear others' thoughts on this.",0,131,23,0.030534351145038167,0.04347826086956519
+This article discusses finance and highlights that users report a mixed set of outcomes. I would love to hear others' thoughts on this. it can be optimized with simple heuristics users report a mixed set of outcomes,1,215,37,0.013953488372093023,0.16216216216216217
+I recently experienced travel in my day-to-day life and found that privacy concerns remain a top challenge.,0,107,17,0.028037383177570093,0.0
+I recently experienced sports in my day-to-day life and found that it requires more data for conclusive evidence.,0,113,18,0.02654867256637168,0.0
+Analysis indicates that science is associated with adoption increases with better education.,1,92,12,0.010869565217391304,0.08333333333333337
+This article discusses entertainment and highlights that it can be optimized with simple heuristics. Further investigation is warranted.,1,136,18,0.014705882352941176,0.0
+"In my experience, lifestyle often leads to the results are promising but preliminary.",0,85,13,0.023529411764705882,0.0
+My personal opinion on travel is that the community response has been overwhelmingly positive.,0,94,14,0.010638297872340425,0.0
+This article discusses food and highlights that there are trade-offs to consider.,1,81,12,0.024691358024691357,0.0
+This article discusses food and highlights that the community response has been overwhelmingly positive. users report a mixed set of outcomes it can be optimized with simple heuristics the community response has been overwhelmingly positive,1,240,35,0.004166666666666667,0.17142857142857137
+"As someone who follows lifestyle, I believe costs can vary greatly depending on implementation.",0,95,14,0.021052631578947368,0.0
+"In my experience, education often leads to it improves efficiency significantly. it can be optimized with simple heuristics the results are promising but preliminary",0,165,24,0.012121212121212121,0.04166666666666663
+This article discusses lifestyle and highlights that adoption increases with better education. I would love to hear others' thoughts on this.,1,141,21,0.02127659574468085,0.0
+I recently experienced entertainment in my day-to-day life and found that the results are promising but preliminary.,0,116,17,0.02586206896551724,0.0
+"As someone who follows education, I believe it requires more data for conclusive evidence. Further investigation is warranted.",0,126,18,0.023809523809523808,0.0
+A concise overview of finance: costs can vary greatly depending on implementation.,1,82,12,0.024390243902439025,0.0
+"As someone who follows sports, I believe there are trade-offs to consider.",0,74,12,0.04054054054054054,0.0
+This article discusses entertainment and highlights that it improves efficiency significantly.,1,94,11,0.010638297872340425,0.0
+The following summary on finance shows users report a mixed set of outcomes.,1,76,13,0.013157894736842105,0.0
+"After trying several approaches related to entertainment, I noticed there are trade-offs to consider.",0,101,14,0.0297029702970297,0.0714285714285714
+"After trying several approaches related to technology, I noticed there are trade-offs to consider. Implementation details matter a lot here.",0,140,20,0.02857142857142857,0.050000000000000044
+"In my experience, technology often leads to it requires more data for conclusive evidence.",0,90,14,0.022222222222222223,0.0
+"As someone who follows health, I believe the community response has been overwhelmingly positive.",0,97,14,0.020618556701030927,0.0
+The following summary on entertainment shows users report a mixed set of outcomes.,1,82,13,0.012195121951219513,0.0
+My personal opinion on education is that adoption increases with better education.,0,82,12,0.012195121951219513,0.0
+This article discusses entertainment and highlights that the results are promising but preliminary.,1,99,13,0.010101010101010102,0.0
+This article discusses travel and highlights that it improves efficiency significantly.,1,87,11,0.011494252873563218,0.0
+"After trying several approaches related to health, I noticed there are trade-offs to consider. Further investigation is warranted.",0,130,18,0.03076923076923077,0.05555555555555558
+A concise overview of entertainment: there are trade-offs to consider.,1,70,10,0.04285714285714286,0.0
+This article discusses sports and highlights that the results are promising but preliminary. Implementation details matter a lot here.,1,134,19,0.014925373134328358,0.0
+My personal opinion on technology is that the community response has been overwhelmingly positive.,0,98,14,0.01020408163265306,0.0
+I recently experienced finance in my day-to-day life and found that it can be optimized with simple heuristics.,0,111,18,0.02702702702702703,0.0
+This article discusses technology and highlights that the community response has been overwhelmingly positive.,1,110,14,0.00909090909090909,0.0
+A concise overview of technology: costs can vary greatly depending on implementation.,1,85,12,0.023529411764705882,0.0
+"In my experience, science often leads to it requires more data for conclusive evidence.",0,87,14,0.022988505747126436,0.0
+Research-style summary on science suggests it can be optimized with simple heuristics. I would love to hear others' thoughts on this.,1,133,21,0.03007518796992481,0.04761904761904767
+This article discusses lifestyle and highlights that it can be optimized with simple heuristics.,1,96,14,0.010416666666666666,0.0
+"In my experience, lifestyle often leads to it can be optimized with simple heuristics. This could change as new data becomes available.",0,135,22,0.022222222222222223,0.0
+"After trying several approaches related to health, I noticed costs can vary greatly depending on implementation.",0,112,16,0.017857142857142856,0.0
+"After trying several approaches related to sports, I noticed there are trade-offs to consider.",0,94,14,0.031914893617021274,0.0714285714285714
+"In my experience, education often leads to adoption increases with better education.",0,84,12,0.023809523809523808,0.0
+This article discusses sports and highlights that the results are promising but preliminary.,1,92,13,0.010869565217391304,0.0
+"In my experience, technology often leads to the results are promising but preliminary. the results are promising but preliminary the community response has been overwhelmingly positive it can be optimized with simple heuristics",0,227,33,0.00881057268722467,0.18181818181818177
+"In my experience, finance often leads to users report a mixed set of outcomes.",0,78,14,0.02564102564102564,0.0
+Research-style summary on health suggests users report a mixed set of outcomes.,1,79,12,0.02531645569620253,0.0
+The following summary on travel shows the results are promising but preliminary. Further investigation is warranted.,1,116,16,0.017241379310344827,0.0625
+"As someone who follows education, I believe users report a mixed set of outcomes. I would love to hear others' thoughts on this.",0,128,23,0.03125,0.04347826086956519
+My personal opinion on travel is that it improves efficiency significantly. the community response has been overwhelmingly positive it improves efficiency significantly,0,168,22,0.005952380952380952,0.13636363636363635
+Research-style summary on entertainment suggests adoption increases with better education.,1,90,10,0.022222222222222223,0.0
+A concise overview of education: costs can vary greatly depending on implementation.,1,84,12,0.023809523809523808,0.0
+Analysis indicates that food is associated with there are trade-offs to consider. I would love to hear others' thoughts on this. there are trade-offs to consider users report a mixed set of outcomes,1,198,33,0.025252525252525252,0.1515151515151515
+The following summary on lifestyle shows the results are promising but preliminary. Further investigation is warranted.,1,119,16,0.01680672268907563,0.0625
+A concise overview of food: users report a mixed set of outcomes.,1,65,12,0.03076923076923077,0.16666666666666663
+"In my experience, finance often leads to the community response has been overwhelmingly positive. Implementation details matter a lot here.",0,139,20,0.02158273381294964,0.0
+This article discusses food and highlights that it improves efficiency significantly.,1,85,11,0.011764705882352941,0.0
+I recently experienced science in my day-to-day life and found that adoption increases with better education.,0,109,16,0.027522935779816515,0.0
+"As someone who follows technology, I believe it improves efficiency significantly.",0,82,11,0.024390243902439025,0.0
+This article discusses entertainment and highlights that costs can vary greatly depending on implementation. Community feedback will shape future developments.,1,159,20,0.012578616352201259,0.0
+"After trying several approaches related to food, I noticed privacy concerns remain a top challenge.",0,99,15,0.020202020202020204,0.0
+I recently experienced food in my day-to-day life and found that it requires more data for conclusive evidence.,0,111,18,0.02702702702702703,0.0
+Research-style summary on lifestyle suggests it can be optimized with simple heuristics.,1,88,12,0.022727272727272728,0.0
+Research-style summary on travel suggests users report a mixed set of outcomes. it can be optimized with simple heuristics costs can vary greatly depending on implementation,1,173,26,0.011560693641618497,0.07692307692307687
+The following summary on education shows there are trade-offs to consider.,1,74,11,0.02702702702702703,0.0
+"As someone who follows entertainment, I believe there are trade-offs to consider.",0,81,12,0.037037037037037035,0.0
+I recently experienced travel in my day-to-day life and found that there are trade-offs to consider.,0,100,16,0.04,0.0
+I recently experienced technology in my day-to-day life and found that adoption increases with better education. Further investigation is warranted. it can be optimized with simple heuristics,0,191,27,0.020942408376963352,0.03703703703703709
+My personal opinion on health is that users report a mixed set of outcomes.,0,75,14,0.013333333333333334,0.0
+My personal opinion on entertainment is that there are trade-offs to consider. privacy concerns remain a top challenge it improves efficiency significantly,0,155,22,0.012903225806451613,0.0
+"In my experience, food often leads to privacy concerns remain a top challenge. costs can vary greatly depending on implementation it improves efficiency significantly it can be optimized with simple heuristics",0,209,31,0.009569377990430622,0.06451612903225812
+Research-style summary on travel suggests the community response has been overwhelmingly positive. Implementation details matter a lot here.,1,140,18,0.02142857142857143,0.0
+A concise overview of education: privacy concerns remain a top challenge.,1,73,11,0.0273972602739726,0.09090909090909094
+This article discusses science and highlights that it improves efficiency significantly. This could change as new data becomes available.,1,137,19,0.014598540145985401,0.052631578947368474
+Research-style summary on health suggests the results are promising but preliminary.,1,84,11,0.023809523809523808,0.0
+Analysis indicates that education is associated with the results are promising but preliminary. users report a mixed set of outcomes it improves efficiency significantly it improves efficiency significantly,1,206,28,0.0048543689320388345,0.1428571428571429
+I recently experienced food in my day-to-day life and found that the community response has been overwhelmingly positive. This could change as new data becomes available. the results are promising but preliminary costs can vary greatly depending on implementation,0,263,39,0.015209125475285171,0.02564102564102566
+My personal opinion on finance is that there are trade-offs to consider.,0,72,12,0.027777777777777776,0.0
+I recently experienced technology in my day-to-day life and found that costs can vary greatly depending on implementation.,0,122,18,0.02459016393442623,0.0
+My personal opinion on travel is that it requires more data for conclusive evidence.,0,84,14,0.011904761904761904,0.0
+A concise overview of education: the results are promising but preliminary.,1,75,11,0.02666666666666667,0.0
+"As someone who follows travel, I believe it can be optimized with simple heuristics.",0,84,14,0.023809523809523808,0.0
+A concise overview of lifestyle: the results are promising but preliminary.,1,75,11,0.02666666666666667,0.0
+"After trying several approaches related to lifestyle, I noticed adoption increases with better education. This could change as new data becomes available.",0,154,22,0.01948051948051948,0.0
+This article discusses education and highlights that there are trade-offs to consider. I would love to hear others' thoughts on this.,1,133,21,0.03007518796992481,0.04761904761904767
+The following summary on entertainment shows the community response has been overwhelmingly positive. adoption increases with better education,1,142,18,0.007042253521126761,0.05555555555555558
+Analysis indicates that health is associated with it requires more data for conclusive evidence.,1,96,14,0.010416666666666666,0.0
+I recently experienced travel in my day-to-day life and found that there are trade-offs to consider. Community feedback will shape future developments.,0,151,22,0.033112582781456956,0.0
+This article discusses sports and highlights that adoption increases with better education. This could change as new data becomes available.,1,140,20,0.014285714285714285,0.050000000000000044
+My personal opinion on sports is that it can be optimized with simple heuristics.,0,81,14,0.012345679012345678,0.0
+"As someone who follows travel, I believe the community response has been overwhelmingly positive. privacy concerns remain a top challenge",0,137,20,0.014598540145985401,0.0
+"In my experience, finance often leads to there are trade-offs to consider. Further investigation is warranted. it improves efficiency significantly",0,147,20,0.027210884353741496,0.050000000000000044
+Analysis indicates that health is associated with adoption increases with better education.,1,91,12,0.01098901098901099,0.08333333333333337
+The following summary on sports shows users report a mixed set of outcomes. it requires more data for conclusive evidence,1,121,20,0.008264462809917356,0.0
+"As someone who follows lifestyle, I believe there are trade-offs to consider. Implementation details matter a lot here.",0,119,18,0.03361344537815126,0.0
+This article discusses science and highlights that it requires more data for conclusive evidence.,1,97,14,0.010309278350515464,0.0
+The following summary on science shows the community response has been overwhelmingly positive.,1,95,13,0.010526315789473684,0.07692307692307687
+"As someone who follows entertainment, I believe there are trade-offs to consider.",0,81,12,0.037037037037037035,0.0
+I recently experienced finance in my day-to-day life and found that it improves efficiency significantly. Implementation details matter a lot here.,0,147,21,0.027210884353741496,0.0
