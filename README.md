@@ -16,6 +16,8 @@ Academic Integrity & Education Technology (EdTech) can be another use case where
 
 ## Dataset, Cleaning & Pre-processing 
 
+## Exploratory Data Analysis (EDA) for Text 
+
 ## Feature Engineering 
 
 Due to fundamental architectural differences between classical machine learning models and transformer-based models, two separate preprocessing and feature engineering pipelines were implemented. Classical machine learning models and the BiLSTM network relied on explicitly engineered features, including Bag-of-Words and TF-IDF representations derived from cleaned and lemmatized text. In contrast, the DistilBERT model utilized minimal preprocessing and employed its native tokenizer to generate contextualized subword embeddings, allowing the model to learn linguistic features automatically through self-attention mechanisms. This separation ensures methodological correctness and fair model comparison.
