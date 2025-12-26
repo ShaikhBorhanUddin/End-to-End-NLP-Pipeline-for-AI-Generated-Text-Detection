@@ -14,6 +14,8 @@ Journalism & News Verification also addresses a similar growing challenge of ide
 
 Academic Integrity & Education Technology (EdTech) can be another use case where focus is given on detecting AI-generated academic submissions such as essays, assignments, and reflective writing. Universities, online learning platforms (such as Coursera, edX, Udemy), and assessment or marking systems can use this model to help identify potentially AI-written (or heavily assisted) coursework. This capability is critical for preventing misuse of generative AI, supporting fair and consistent evaluation, and assisting instructors by flagging suspicious (AI-generated) submissions. Importantly, the model functions as a decision-support tool rather than an automated punishment system, enabling human educators to make informed and transparent academic integrity decisions. 
 
+## Dataset, Cleaning & Pre-processing 
+
 ## Feature Engineering 
 
 Due to fundamental architectural differences between classical machine learning models and transformer-based models, two separate preprocessing and feature engineering pipelines were implemented. Classical machine learning models and the BiLSTM network relied on explicitly engineered features, including Bag-of-Words and TF-IDF representations derived from cleaned and lemmatized text. In contrast, the DistilBERT model utilized minimal preprocessing and employed its native tokenizer to generate contextualized subword embeddings, allowing the model to learn linguistic features automatically through self-attention mechanisms. This separation ensures methodological correctness and fair model comparison.
