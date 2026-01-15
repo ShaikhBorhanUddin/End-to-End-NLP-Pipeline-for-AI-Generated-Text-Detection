@@ -1,5 +1,25 @@
 # End to End NLP Pipeline for AI-Generated Text Detection 
 
+<p align="left">
+  <img src="https://img.shields.io/badge/Made%20With-Colab-blue?logo=googlecolab&logoColor=white&label=Made%20With" alt="Made with Colab">
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT">
+
+  <img src="https://img.shields.io/github/repo-size/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection" alt="Repo Size">
+  <img src="https://img.shields.io/github/last-commit/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection" alt="Last Commit">
+  <img src="https://img.shields.io/github/issues/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection" alt="Issues">
+
+  <img src="https://img.shields.io/badge/Task-AI%20Text%20Detection-blueviolet?logo=openai" alt="AI Text Detection">
+  <img src="https://img.shields.io/badge/NLP-Transformers-orange?logo=huggingface" alt="NLP: Transformers">
+  <img src="https://img.shields.io/badge/ML-Classification-yellow?logo=scikitlearn" alt="ML Classification">
+  <img src="https://img.shields.io/badge/Deep%20Learning-BERT%20%7C%20RoBERTa-red?logo=pytorch" alt="DL Models">
+
+  <img src="https://img.shields.io/badge/Version%20Control-Git-orange?logo=git" alt="Version Control: Git">
+  <img src="https://img.shields.io/badge/Host-GitHub-black?logo=github" alt="Host: GitHub">
+
+  <img src="https://img.shields.io/github/forks/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection?style=social" alt="Forks">
+  <img src="https://img.shields.io/badge/Project-In%20Progress-yellow" alt="Project Status">
+</p> 
+
 ![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-For-Human-vs-AI-Generated-Text-Classification-System/blob/main/Assets/ai_vs_human_title_mod.png?raw=true) 
 
 ## Overview 
