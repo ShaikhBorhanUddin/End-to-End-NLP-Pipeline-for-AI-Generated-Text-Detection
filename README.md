@@ -4,12 +4,14 @@
   <!-- Core -->
   <img src="https://img.shields.io/badge/Made%20With-Colab-blue?logo=googlecolab&logoColor=white" alt="Made with Colab">
   <img src="https://img.shields.io/badge/Language-Python-blue?logo=python" alt="Language: Python">
-  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
+
+  <!-- Emoji Icons -->
+  <img src="https://img.shields.io/badge/⚖️%20License-MIT-green" alt="License">
+  <img src="https://img.shields.io/badge/🐞%20Issues-GitHub-red" alt="Issues">
 
   <!-- Repo Stats -->
   <img src="https://img.shields.io/github/repo-size/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection" alt="Repo Size">
   <img src="https://img.shields.io/github/last-commit/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection" alt="Last Commit">
-  <img src="https://img.shields.io/github/issues/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection" alt="Issues">
 
   <!-- Models -->
   <img src="https://img.shields.io/badge/Models-LR%20%7C%20SVM%20%7C%20RF%20%7C%20XGBoost%20%7C%20BiLSTM%20%7C%20DistilBERT-red" alt="Models">
