@@ -67,7 +67,7 @@ End to End NLP Pipeline For AI-Generated Text Detection
 ├── Models/                # Source code
 │   ├── images
 │   └── Credit_Card_Fraud_Detection.ipynb
-├── Notebooks
+├── Notebooks/
 ├── requirements.txt    # Python dependencies
 ├── README.md           # Project documentation
 └── LICENSE
