@@ -24,6 +24,8 @@
 
   <!-- Dataset -->
   <img src="https://img.shields.io/badge/Dataset-Kaggle-blueviolet?logo=kaggle" alt="Dataset: Kaggle">
+  <!-- GPU --> 
+  <img src="https://img.shields.io/badge/Runtime-GPU%20(A100 | T4 | L4)-blue?logo=nvidia" alt="Runtime: GPU (A100 | Trillium)">
 
   <!-- Deployment -->
   <img src="https://img.shields.io/badge/Deployment-Gradio%20%7C%20HuggingFace-orange?logo=huggingface" alt="Deployment">
