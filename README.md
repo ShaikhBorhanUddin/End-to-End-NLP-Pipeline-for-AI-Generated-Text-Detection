@@ -57,6 +57,17 @@ To implement these use cases, it is essential to follow a series of sequential s
 
 ## Folder Structure 
 
+```bash
+End to End NLP Pipeline for AI-Generated Text Detection
+├── Images/
+├── dataset/            # Dataset files too large to upload in repository
+├── src/                # Source code
+│   ├── images
+│   └── Credit_Card_Fraud_Detection.ipynb
+├── requirements.txt    # Python dependencies
+├── README.md           # Project documentation
+└── LICENSE
+```
 ## Project Workflow 
 
 ## Dataset, Cleaning & Pre-processing 
