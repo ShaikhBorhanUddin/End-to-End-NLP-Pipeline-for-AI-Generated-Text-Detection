@@ -53,6 +53,8 @@ Journalism & News Verification also addresses a similar growing challenge of ide
 
 Academic Integrity & Education Technology (EdTech) can be another use case where focus is given on detecting AI-generated academic submissions such as essays, assignments, and reflective writing. Universities, online learning platforms (such as Coursera, edX, Udemy), and assessment or marking systems can use this model to help identify potentially AI-written (or heavily assisted) coursework. This capability is critical for preventing misuse of generative AI, supporting fair and consistent evaluation, and assisting instructors by flagging suspicious (AI-generated) submissions. Importantly, the model functions as a decision-support tool rather than an automated punishment system, enabling human educators to make informed and transparent academic integrity decisions. 
 
+To implement these use cases, it is essential to follow a series of sequential steps: identifying suitable datasets, performing feature engineering, training and testing models, selecting the most appropriate model, and building and deploying a web interface. These processes are detailed in the following sections. 
+
 ## Dataset, Cleaning & Pre-processing 
 
 ## Exploratory Data Analysis (EDA) for Text 
