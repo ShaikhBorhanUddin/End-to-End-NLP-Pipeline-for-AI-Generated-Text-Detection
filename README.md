@@ -55,6 +55,10 @@ Academic Integrity & Education Technology (EdTech) can be another use case where
 
 To implement these use cases, it is essential to follow a series of sequential steps: identifying suitable datasets, performing feature engineering, training and testing models, selecting the most appropriate model, and building and deploying a web interface. These processes are detailed in the following sections. 
 
+## Folder Structure 
+
+## Project Workflow 
+
 ## Dataset, Cleaning & Pre-processing 
 
 ## Exploratory Data Analysis (EDA) for Text 
@@ -63,7 +67,26 @@ To implement these use cases, it is essential to follow a series of sequential s
 
 Due to fundamental architectural differences between classical machine learning models and transformer-based models, two separate preprocessing and feature engineering pipelines were implemented. Classical machine learning models and the BiLSTM network relied on explicitly engineered features, including Bag-of-Words and TF-IDF representations derived from cleaned and lemmatized text. In contrast, the DistilBERT model utilized minimal preprocessing and employed its native tokenizer to generate contextualized subword embeddings, allowing the model to learn linguistic features automatically through self-attention mechanisms. This separation ensures methodological correctness and fair model comparison. 
 
+## Models 
+
+## Tests 
+
+## Evaluation 
+
+## Explainability 
+
+## Applications 
+
 ## Deployment 
 
-To access the app click the [link](https://huggingface.co/spaces/ShaikhBorhanUddin/AI_generated_text_detection).
+To access the app click the [link](https://huggingface.co/spaces/ShaikhBorhanUddin/AI_generated_text_detection). 
 
+## Limitations 
+
+## Technologies Used 
+
+## Future Developement 
+
+## Licence 
+
+## Contact  
