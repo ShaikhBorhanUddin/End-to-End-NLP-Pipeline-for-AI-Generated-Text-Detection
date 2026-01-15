@@ -61,11 +61,13 @@ To implement these use cases, it is essential to follow a series of sequential s
 
 ```bash
 End to End NLP Pipeline For AI-Generated Text Detection
-├── Images/
-├── dataset/            # Dataset files too large to upload in repository
-├── src/                # Source code
+│
+├── Assets/
+├── Dataset/            # Dataset files too large to upload in repository
+├── Models/                # Source code
 │   ├── images
 │   └── Credit_Card_Fraud_Detection.ipynb
+├── Notebooks
 ├── requirements.txt    # Python dependencies
 ├── README.md           # Project documentation
 └── LICENSE
