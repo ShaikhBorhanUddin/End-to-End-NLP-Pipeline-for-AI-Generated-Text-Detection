@@ -10,17 +10,17 @@
   <img src="https://img.shields.io/badge/🐞%20Issues-GitHub-red" alt="Issues">
 
   <!-- Repo Stats -->
-  <img src="https://img.shields.io/github/repo-size/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection" alt="Repo Size">
+  <img src="https://img.shields.io/github/repo-size/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection?logo=github" alt="Repo Size">
   <img src="https://img.shields.io/github/last-commit/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection" alt="Last Commit">
 
   <!-- Models -->
-  <img src="https://img.shields.io/badge/Models-LR%20%7C%20SVM%20%7C%20RF%20%7C%20XGBoost%20%7C%20BiLSTM%20%7C%20DistilBERT-red" alt="Models">
+  <img src="https://img.shields.io/badge/🤖%20Models-LR%20%7C%20SVM%20%7C%20RF%20%7C%20XGBoost%20%7C%20BiLSTM%20%7C%20DistilBERT-red" alt="Models">
 
   <!-- Explainability -->
-  <img src="https://img.shields.io/badge/Explainability-LIME%20%7C%20SHAP-purple" alt="LIME & SHAP">
+  <img src="https://img.shields.io/badge/🔍%20Explainability-LIME%20%7C%20SHAP-purple" alt="Explainability">
 
   <!-- Visualization -->
-  <img src="https://img.shields.io/badge/Data%20Visualization-Matplotlib%20%7C%20Seaborn-yellow" alt="Visualization">
+  <img src="https://img.shields.io/badge/📊%20Data%20Visualization-Matplotlib%20%7C%20Seaborn-yellow" alt="Visualization">
 
   <!-- Dataset -->
   <img src="https://img.shields.io/badge/Dataset-Kaggle-blueviolet?logo=kaggle" alt="Dataset: Kaggle">
