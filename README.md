@@ -1,4 +1,4 @@
-# End to End NLP Pipeline for AI-Generated Text Detection 
+# End to End NLP Pipeline For AI-Generated Text Detection 
 
 <p align="left">
   <!-- Core -->
@@ -60,7 +60,7 @@ To implement these use cases, it is essential to follow a series of sequential s
 ## Folder Structure 
 
 ```bash
-End to End NLP Pipeline for AI-Generated Text Detection
+End to End NLP Pipeline For AI-Generated Text Detection
 ├── Images/
 ├── dataset/            # Dataset files too large to upload in repository
 ├── src/                # Source code
