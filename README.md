@@ -149,6 +149,8 @@ High repetition score indicates fewer unique words and more repetition whereas l
 | **punctuation_ratio** | Decimal          | Ratio of punctuation marks to total characters               |
 | **repetition_score**  | Decimal          | Measure of repeated words/phrases in the text                | 
 
+The second dataset, [Human vs AI Text Classification Dataset](https://www.kaggle.com/datasets/aknjit/human-vs-ai-text-classification-dataset/data) is relatively large (5000 entries; 2500 for each label). However, a significant portion of the dataset consists of repeated rows (4540 duplicates), leaving only 460 usable entries. Fortunately, class imbalance did not occur after duplicate removal. However, since the dataset has only `text` and `label` columns, features like `character length`, `word length`, `punctuation ratio` and `repetition score` are added to it. 
+
 
 ## Exploratory Data Analysis (EDA) for Text 
 
