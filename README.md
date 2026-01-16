@@ -273,6 +273,8 @@ A transformer-based training pipeline was implemented using the Hugging Face Tra
 
 ## Performance Matrix Evaluation 
 
+Performance matrices of 4 classical ML models are included here. 
+
 | Model               | Feature Type          | Accuracy | Precision | Recall | F1-score |
 |--------------------|----------------------|----------|-----------|--------|----------|
 | Logistic Regression | BoW + Numerical      | 0.96     | 0.96      | 0.96   | 0.96     |
@@ -287,6 +289,14 @@ A transformer-based training pipeline was implemented using the Hugging Face Tra
 | XGBoost             | BoW + Numerical      | 0.96     | 0.96      | 0.96   | 0.96     |
 | XGBoost             | TF-IDF + Numerical   | 0.97     | 0.97      | 0.97   | 0.97     |
 | XGBoost             | Word2Vec             | 0.95     | 0.95      | 0.95   | 0.95     | 
+
+The analysis shows that TF-IDF feature representation consistently outperforms both Bag-of-Words (BoW) and Word2Vec across most models, with Logistic Regression using TF-IDF achieving the highest accuracy of 98%. Random Forest with BoW also performed strongly, reaching 97% accuracy, while Word2Vec features generally yielded lower performance across all models. Simpler models, such as Logistic Regression and Linear SVM, performed on par with more complex models, and evaluation metrics including Accuracy, Precision, Recall, and F1-score were highly aligned, indicating balanced classification. Tree-based models tend to perform better with BoW features, and XGBoost demonstrated stable performance across all feature types. Overall, all models achieved above 94% accuracy, reflecting strong dataset separability, and TF-IDF emerges as the most effective feature extraction method for this task. 
+
+The very large feature set (`X_train_bow` shape: (16701, 38042)) is the primary reason for the BiLSTM model taking a very long time to train. Each input to the LSTM layers contains 38,042 features, which leads to a huge number of trainable parameters in the Bidirectional LSTM layers and significantly increases computational complexity and training time. For high-dimensional and sparse representations such as Bag-of-Words and TF-IDF, traditional machine learning models like Logistic Regression or SVMs are generally more appropriate, or dimensionality reduction techniques such as PCA are applied before using deep learning models. However, performing PCA on more than 38,000 features is itself computationally expensive and time-consuming. Training an LSTM model with BoW and numerical features was estimated to take approximately 5 hours on an A100 GPU and around 12 hours on an L4 GPU. Due to these limitations, only the Word2Vec-based model was trained. 
+
+BiLSTM model training was conducted for 100 epochs, during which training accuracy steadily increased from roughly 0.70 to about 0.99, while validation accuracy rose rapidly early on and stabilized around 0.95–0.97 with minor fluctuations. Training loss consistently decreased throughout all 100 epochs, indicating continued optimization on the training set. In contrast, validation loss dropped sharply in the initial epochs but began to fluctuate and slightly increase in later epochs, suggesting the onset of mild overfitting toward the end of the 100-epoch training period. 
+
+
 
 ## Explainability 
 
