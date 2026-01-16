@@ -278,9 +278,9 @@ A transformer-based training pipeline was implemented using the Hugging Face Tra
 | Logistic Regression | BoW + Numerical      | 0.96     | 0.96      | 0.96   | 0.96     |
 | Logistic Regression | TF-IDF + Numerical   | 0.98     | 0.98      | 0.98   | 0.98     |
 | Logistic Regression | Word2Vec             | 0.95     | 0.95      | 0.95   | 0.95     |
-| Linear SVM          | BoW + Numerical      | 0.96     | 0.96      | 0.96   | 0.96     |
-| Linear SVM          | TF-IDF + Numerical   | 0.97     | 0.97      | 0.97   | 0.97     |
-| Linear SVM          | Word2Vec             | 0.95     | 0.95      | 0.95   | 0.95     |
+| SVM                 | BoW + Numerical      | 0.96     | 0.96      | 0.96   | 0.96     |
+| SVM                 | TF-IDF + Numerical   | 0.97     | 0.97      | 0.97   | 0.97     |
+| SVM                 | Word2Vec             | 0.95     | 0.95      | 0.95   | 0.95     |
 | Random Forest       | BoW + Numerical      | 0.97     | 0.97      | 0.97   | 0.97     |
 | Random Forest       | TF-IDF + Numerical   | 0.96     | 0.96      | 0.96   | 0.96     |
 | Random Forest       | Word2Vec             | 0.94     | 0.94      | 0.94   | 0.94     |
