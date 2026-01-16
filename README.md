@@ -250,20 +250,20 @@ Classical machine learning models, BiLSTM, and DistilBERT were trained using sep
 
 Logistic Regression (LR), Support Vector Machine (SVM), Random Forest (RF), and XGBoost classifiers were trained and evaluated in parallel using identical feature sets to enable fair comparison across models. A classical machine learning text classification pipeline was implemented that integrates linguistic feature engineering with multiple text representation techniques. Text data were transformed using Bag-of-Words (BoW), TF-IDF, and Word2Vec-based document embeddings. These representations were further enriched by concatenating handcrafted numerical features, including text length, punctuation ratio, and word repetition scores. The resulting feature matrices were split into training and testing sets. Model performance was primarily evaluated using Logistic Regression classifiers, with solver configurations adapted to handle sparse (BoW, TF-IDF) and dense (Word2Vec) feature spaces. This experimental setup enabled a systematic comparison of how different feature representations influence classification performance on the binary text classification task (e.g., human vs. AI-generated text). 
 
-| #  | Model                    | Algorithm                   | Feature Variant      | max_iter | solver | n_jobs | eval_metric | random_state |
-|----|--------------------------|-----------------------------|----------------------|----------|--------|--------|-------------|--------------|
-| 1  | LR (BoW)                 | Logistic Regression         | Bag-of-Words         | 1000     | lbfgs  | -1     | —           | 42           |
-| 2  | LR (TF-IDF)              | Logistic Regression         | TF-IDF               | 1000     | lbfgs  | -1     | —           | 42           |
-| 3  | LR (Word2Vec)            | Logistic Regression         | Word2Vec (avg)       | 1000     | lbfgs  | -1     | —           | 42           |
-| 4  | XGBoost (BoW)            | XGBoost Classifier          | Bag-of-Words         | —        | —      | -1     | logloss     | 42           |
-| 5  | XGBoost (TF-IDF)         | XGBoost Classifier          | TF-IDF               | —        | —      | -1     | logloss     | 42           |
-| 6  | XGBoost (Word2Vec)       | XGBoost Classifier          | Word2Vec (avg)       | —        | —      | -1     | logloss     | 42           |
-| 7  | Random Forest (BoW)      | Random Forest Classifier    | Bag-of-Words         | —        | —      | -1     | —           | 42           |
-| 8  | Random Forest (TF-IDF)   | Random Forest Classifier    | TF-IDF               | —        | —      | -1     | —           | 42           |
-| 9  | Random Forest (Word2Vec) | Random Forest Classifier    | Word2Vec (avg)       | —        | —      | -1     | —           | 42           |
-| 10 | SVM (BoW)                | Linear SVM                  | Bag-of-Words         | 1000     | —      | -1     | —           | 42           |
-| 11 | SVM (TF-IDF)             | Linear SVM                  | TF-IDF               | 1000     | —      | -1     | —           | 42           |
-| 12 | SVM (Word2Vec)           | Linear SVM                  | Word2Vec (avg)       | 1000     | —      | -1     | —           | 42           | 
+| Model                    | Algorithm                   | Feature Variant      | max_iter | solver | n_jobs | eval_metric | random_state |
+|--------------------------|-----------------------------|----------------------|----------|--------|--------|-------------|--------------|
+| LR (BoW)                 | Logistic Regression         | Bag-of-Words         | 1000     | lbfgs  | -1     | —           | 42           |
+| LR (TF-IDF)              | Logistic Regression         | TF-IDF               | 1000     | lbfgs  | -1     | —           | 42           |
+| LR (Word2Vec)            | Logistic Regression         | Word2Vec (avg)       | 1000     | lbfgs  | -1     | —           | 42           |
+| XGBoost (BoW)            | XGBoost Classifier          | Bag-of-Words         | —        | —      | -1     | logloss     | 42           |
+| XGBoost (TF-IDF)         | XGBoost Classifier          | TF-IDF               | —        | —      | -1     | logloss     | 42           |
+| XGBoost (Word2Vec)       | XGBoost Classifier          | Word2Vec (avg)       | —        | —      | -1     | logloss     | 42           |
+| Random Forest (BoW)      | Random Forest Classifier    | Bag-of-Words         | —        | —      | -1     | —           | 42           |
+| Random Forest (TF-IDF)   | Random Forest Classifier    | TF-IDF               | —        | —      | -1     | —           | 42           |
+| Random Forest (Word2Vec) | Random Forest Classifier    | Word2Vec (avg)       | —        | —      | -1     | —           | 42           |
+| SVM (BoW)                | Linear SVM                  | Bag-of-Words         | 1000     | —      | -1     | —           | 42           |
+| SVM (TF-IDF)             | Linear SVM                  | TF-IDF               | 1000     | —      | -1     | —           | 42           |
+| SVM (Word2Vec)           | Linear SVM                  | Word2Vec (avg)       | 1000     | —      | -1     | —           | 42           | 
 
 
 ## Tests 
