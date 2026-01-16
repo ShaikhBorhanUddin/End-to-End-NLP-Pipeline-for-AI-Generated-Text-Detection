@@ -271,9 +271,7 @@ The second model training pipeline implements a deep learning sequence model bas
 
 A transformer-based training pipeline was implemented using the Hugging Face Transformers library and a pretrained DistilBERT model for binary text classification. The model imports `DistilBertForSequenceClassification` initialized from the `distilbert-base-uncased` checkpoint and configured with `num_labels = 2`. Its architecture consists of a DistilBERT encoder that generates contextualized token embeddings, followed by a linear pre-classifier layer and a final classification head that outputs logits for the two target classes. Text inputs are tokenized using the native DistilBERT tokenizer and passed through the model for end-to-end supervised fine-tuning. During training and inference, both the model and input tensors are automatically transferred to the CUDA device when available to accelerate computation. This approach uses self-attention mechanisms to learn deep semantic and contextual representations that are not accessible to classical or recurrent models. 
 
-## Tests 
-
-## Evaluation 
+## Performance Matrix Evaluation 
 
 ## Explainability 
 
