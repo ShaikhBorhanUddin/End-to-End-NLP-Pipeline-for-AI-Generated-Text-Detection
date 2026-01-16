@@ -120,7 +120,9 @@ Three publicly available datasets were used for this project. The first dataset 
 | **plagiarism_score** | Float            | Similarity score indicating potential plagiarism                                |
 | **notes**            | String           | Additional remarks (e.g., personal tone, blank if none)                         | 
 
-Besides the `text` column, character and word counts are also good indicators of text classification. 
+Besides the `text` column, character and word counts are also good indicators of text classification. To find the correlation among numerical features, correlation heatmap was generated. 
+
+
  
 ## Exploratory Data Analysis (EDA) for Text 
 
