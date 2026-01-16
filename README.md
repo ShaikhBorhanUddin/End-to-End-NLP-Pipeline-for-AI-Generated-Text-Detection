@@ -62,17 +62,17 @@ To implement these use cases, it is essential to follow a series of sequential s
 ```bash
 End to End NLP Pipeline For AI-Generated Text Detection
 │
-├── Assets/
+├── Assets/                       # Screenshots, visualizations and images for documentation
 ├── Dataset/               
-│      ├── Raw/                 # Original dataset from Kaggle
-│      ├── Preprocessed/     
-│      ├── Cleaned/
-│      └── Feature Engineered/
-├── Models/                     # Source code  
-├── Notebooks/
-├── app.py
-├── requirements.txt            # Python dependencies for deployment
-├── README.md                   # Project documentation
+│      ├── Raw/                   # Original dataset from Kaggle
+│      ├── Preprocessed/          # Dataset with added features
+│      ├── Cleaned/               # Cleaned and merged datasets
+│      └── Feature Engineered/    # dataset with BoW, TF-IDF and word2vec features
+├── Models/                       # All saved models
+├── Notebooks/                    # Data preprocessing, EDA, train/test, result visualization
+├── app.py                        # Code for deployment
+├── requirements.txt              # Python dependencies for deployment
+├── README.md                     # Project documentation
 └── Licence
 ```
 ## Project Workflow 
