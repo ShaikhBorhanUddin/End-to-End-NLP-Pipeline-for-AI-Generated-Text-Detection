@@ -118,7 +118,9 @@ Three publicly available datasets were used for this project. The first dataset 
 | **source_detail**    | String           | Origin of the text (e.g., human author ID or AI model name)                     |
 | **timestamp**        | DateTime         | Date and time when the text was created                                         |
 | **plagiarism_score** | Float            | Similarity score indicating potential plagiarism                                |
-| **notes**            | String           | Additional remarks (e.g., personal tone, blank if none)                         |
+| **notes**            | String           | Additional remarks (e.g., personal tone, blank if none)                         | 
+
+Besides the `text` column, character and word counts are also good indicators of text classification. 
  
 ## Exploratory Data Analysis (EDA) for Text 
 
