@@ -318,7 +318,7 @@ All models showed nearly perfect and identical ROC Curves, and therefore not dis
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/roc_ML.png?raw=true) 
 
-### Confusion matrix 
+### Confusion Matrix 
 
 Confusion Matrices of all tested models are included next. 
 
@@ -333,6 +333,9 @@ The BiLSTM with Word2Vec model correctly classified most samples, with 1,956 tru
 In contrast, the DistilBERT model performed significantly better. It achieved 2,114 true negatives and 2,038 true positives, while producing only 17 false positives and 7 false negatives. This resulted in a much higher accuracy of approximately 99.4%, showing that DistilBERT is far more effective at minimizing classification errors and providing more reliable predictions overall. 
 
 ## Explainability 
+
+Based on its superior overall performance and suitability for trouble-free deployment, the DistilBERT model was selected for decision visualization. Both LIME and SHAP were evaluated to visualize and interpret the model’s predictions. Some samples generated with LIME are included below. Due to high use of computational resources, number of features were restricted to 10 – 15. 
+
 
 ## Applications 
 
