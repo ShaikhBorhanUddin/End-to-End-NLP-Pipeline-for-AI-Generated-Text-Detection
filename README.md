@@ -67,7 +67,7 @@ End to End NLP Pipeline For AI-Generated Text Detection
 │      ├── Raw/                   # Original dataset from Kaggle (3rd dataset too large to upload in GitHub)
 │      ├── Preprocessed/          # Dataset with added features
 │      ├── Cleaned/               # Cleaned and merged datasets
-│      └── Feature Engineered/    # dataset with BoW, TF-IDF and word2vec features
+│      └── Feature Engineered/    # dataset with BoW, TF-IDF, word2vec and lemmatized features
 ├── Models/                       # All saved models (distilbert safetensor too large to upload in GitHub)
 ├── Notebooks/                    # Data preprocessing, EDA, train/test, result visualization
 ├── app.py                        # Code for deployment
