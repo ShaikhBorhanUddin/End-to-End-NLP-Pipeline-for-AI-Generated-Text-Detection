@@ -246,6 +246,12 @@ This multi-representation strategy enabled the models to learn from both surface
 
 ## Models 
 
+Classical machine learning models, BiLSTM, and DistilBERT were trained using separate pipelines to ensure methodological independence. 
+
+Logistic Regression (LR), Support Vector Machine (SVM), Random Forest (RF), and XGBoost classifiers were trained and evaluated in parallel using identical feature sets to enable fair comparison across models. A classical machine learning text classification pipeline was implemented that integrates linguistic feature engineering with multiple text representation techniques. Text data were transformed using Bag-of-Words (BoW), TF-IDF, and Word2Vec-based document embeddings. These representations were further enriched by concatenating handcrafted numerical features, including text length, punctuation ratio, and word repetition scores. The resulting feature matrices were split into training and testing sets. Model performance was primarily evaluated using Logistic Regression classifiers, with solver configurations adapted to handle sparse (BoW, TF-IDF) and dense (Word2Vec) feature spaces. This experimental setup enabled a systematic comparison of how different feature representations influence classification performance on the binary text classification task (e.g., human vs. AI-generated text). 
+
+
+
 ## Tests 
 
 ## Evaluation 
