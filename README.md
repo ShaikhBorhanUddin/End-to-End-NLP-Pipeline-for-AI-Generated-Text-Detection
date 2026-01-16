@@ -182,8 +182,19 @@ Depending on training model selection, further data engineering is necessary on 
 
 ## Exploratory Data Analysis for Text 
 
-Exploratory Data Analysis (EDA) was conducted to gain meaningful insights into the structural and linguistic differences between human-written and AI-generated text. This step was essential to understand underlying patterns in the dataset before feature engineering and model training. The analysis focused on text length distributions, word usage patterns, n-gram structures, and linguistic complexity measures to identify distinguishing characteristics between the two classes.
+Exploratory Data Analysis (EDA) was conducted to gain meaningful insights into the structural and linguistic differences between human-written and AI-generated text. This step was essential to understand underlying patterns in the dataset before feature engineering and model training. The analysis focused on text length distributions, word usage patterns, n-gram structures, and linguistic complexity measures to identify distinguishing characteristics between the two classes. 
+
 First, the text length distribution was analysed by computing the number of words per sample. 
+
+![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/word_count.png?raw=true) 
+
+The word count distribution analysis (shown in above images) clear structural differences between human-generated and AI-generated text across both the original and lemmatized datasets. Most samples are concentrated within the 250–450 word range, indicating that the dataset primarily consists of moderately long texts rather than short responses. Human-written content demonstrates greater variability and a stronger presence in higher word-count bins, particularly around 400–450 words, suggesting more diverse and elaborative writing styles. In contrast, AI-generated text is more evenly distributed across mid-length ranges (250–400 words), reflecting the controlled and structured nature of generative models. Very short text entries (below 100 words) are relatively rare in both classes but appear slightly more frequently among AI-generated samples. The near-identical patterns observed after lemmatization confirm that preprocessing preserves the original structural characteristics of the data, ensuring that no class-specific bias is introduced during normalization. 
+
+The analysis of most common words per class was conducted separately for human-generated and AI-generated text across both the original and lemmatized datasets. After removing stopwords, horizontal bar charts were generated for both datasets. 
+
+![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/most_common_words.png?raw=true) 
+
+![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/most_common_words_lemmatized.png?raw=true) 
 
 
 ## Feature Engineering 
