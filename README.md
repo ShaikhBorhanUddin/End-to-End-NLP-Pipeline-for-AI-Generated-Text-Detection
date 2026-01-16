@@ -87,7 +87,7 @@ The following workflow is maintained sequencially in this project.
 
 - EDA to analyze word count distributions, frequent terms, word clouds, bigram patterns, and linguistic complexity measures
 
-- Feature engineering using Bag of Words (BoW), TF-IDF, and Word2Vec embeddings
+- Feature engineering using BoW, TF-IDF, and Word2Vec embeddings
 
 - Model selection covering classical machine learning models, BiLSTM, and transformer-based DistilBERT
 
