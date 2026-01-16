@@ -103,7 +103,7 @@ The following workflow is maintained sequencially in this project.
 
 ## Dataset, Cleaning & Pre-processing 
 
-Three publicly available datasets were used for this project. The first dataset (AI vs Human Comparison Dataset) is relatively small, with 500 entries, but contains metadata for the main feature (text). The dataset is well balanced (50.2% ai generated text entry vs. 49.8% human generated text entry). 
+Three publicly available datasets were used for this project. The first dataset [AI vs Human Comparison Dataset](https://www.kaggle.com/datasets/prince7489/ai-vs-human-comparison-dataset/data) is relatively small, with 500 entries, but contains metadata for the main feature (text). The dataset is well balanced (50.2% ai generated text entry vs. 49.8% human generated text entry). 
 
 | **Column Name**      | **Data Type**    | **Description**                                                                 |
 | -------------------- | ---------------- | ------------------------------------------------------------------------------- |
