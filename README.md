@@ -367,7 +367,7 @@ In the second scenario, a formal application letter written by a student to a sc
 
 <p align="center">
   <img src="https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/edu_human.png" width="49%" />
-  <img src="https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/edu_ai.png" width="49.8%" />
+  <img src="https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/edu_ai.png" width="49.95%" />
 </p> 
 
 These real-world demonstrations validate the practical applicability of the system across different domains. By testing both authentic and AI-modified texts in controlled scenarios, the application proves its ability to function as a reliable decision-support tool, providing confidence scores and explainability outputs to assist human reviewers in making informed judgments.
