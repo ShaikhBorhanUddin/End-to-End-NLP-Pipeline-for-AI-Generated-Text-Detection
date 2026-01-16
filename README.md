@@ -304,9 +304,18 @@ BiLSTM model training was conducted for 100 epochs, during which training accura
 
 The performance matrices of distilbert model are given below. 
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/distilbert_acc_pre.png?raw=true)  
+![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/distilbert_acc_pre.png?raw=true)   
+
+Here, validation accuracy remains consistently high across epochs, starting around 0.97, quickly reaching approximately 0.99, and stabilizing with only minor fluctuations. Validation precision shows a brief dip in early epochs but rapidly improves to around 0.99 and remains stable thereafter, indicating very few false positives as training progresses. 
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/distilbert_rec_f1.png?raw=true) 
+
+Validation recall stays extremely high throughout training, close to 0.99–1.00, with only a small temporary drop around the middle epochs before recovering. The validation F1-score closely follows this trend, remaining around 0.98–0.99 and stabilizing toward the later epochs, reflecting a strong and well-balanced performance between precision and recall. 
+
+### ROC - AUC Analysis 
+
+All models showed nearly perfect and identical ROC Curves, and therefore not discussed with specific details. 
+
 
 ## Explainability 
 
