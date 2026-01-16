@@ -132,6 +132,15 @@ AI generated texts tend to use grammatically correct punctuations, avoiding exce
 punctuation ratio = number of punctuation characters / number of total characters
 ```
 
+Another parameter can be repetition score which measures how repetitive a text is, i.e., how often words or phrases are reused. AI text repeats patterns more consistently than human text. Human writing may contain similar expressions, particular phrases or expressions used over and over whereas AI generated texts use more moderated, neural texts and synonyms. The formula used for calculating it is: 
+
+```bash
+repetition score = 1 - (unique words / total words)
+```
+
+High repetition score indicates fewer unique words and more repetition whereas low repetition score indicates more lexical diversity. These two features are added to the dataset. 
+
+
 ## Exploratory Data Analysis (EDA) for Text 
 
 ## Feature Engineering 
