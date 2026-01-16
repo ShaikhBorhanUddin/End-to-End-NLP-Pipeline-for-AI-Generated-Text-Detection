@@ -316,6 +316,19 @@ Validation recall stays extremely high throughout training, close to 0.99–1.00
 
 All models showed nearly perfect and identical ROC Curves, and therefore not discussed with specific details. 
 
+![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/roc_ML.png?raw=true) 
+
+Confusion Matrices of all tested models are included next. 
+
+![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/distilbert_acc_pre.png?raw=true) 
+
+Across all ML models confusion matrices, the models demonstrate consistently strong classification performance with high true positive and true negative counts and relatively low misclassification rates. Logistic Regression performs best with Bag-of-Words and TF-IDF features, showing balanced errors and only a slight increase in false positives and false negatives when using Word2Vec. Linear SVM exhibits very strong results overall, particularly with TF-IDF, where both false positives and false negatives are among the lowest across all models, while Word2Vec again introduces more misclassifications. Random Forest achieves high true negative counts but tends to show comparatively higher false negatives, indicating a slightly weaker ability to capture all positive instances, especially with Word2Vec. XGBoost delivers consistently robust performance across all feature sets, with Bag-of-Words and Word2Vec yielding very low error counts and TF-IDF showing only a minor increase in misclassifications. Overall, Bag-of-Words and TF-IDF representations outperform Word2Vec across most models, and Linear SVM with TF-IDF and XGBoost variants emerge as the most reliable configurations based on confusion matrix outcomes. 
+
+![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/distilbert_acc_pre.png?raw=true) 
+
+The BiLSTM with Word2Vec model correctly classified most samples, with 1,956 true negatives and 1,950 true positives. However, it produced 129 false positives and 141 false negatives, leading to an overall accuracy of about 93.5%. This indicates solid performance, but with a noticeable number of misclassifications in both classes. 
+
+In contrast, the DistilBERT model performed significantly better. It achieved 2,114 true negatives and 2,038 true positives, while producing only 17 false positives and 7 false negatives. This resulted in a much higher accuracy of approximately 99.4%, showing that DistilBERT is far more effective at minimizing classification errors and providing more reliable predictions overall. 
 
 ## Explainability 
 
