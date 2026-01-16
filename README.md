@@ -366,8 +366,8 @@ In the first scenario, an original news article published by BBC was used as a s
 In the second scenario, a formal application letter written by a student to a school principal was used as a human-authored sample. An AI-enhanced version of the same letter was generated using a large language model to simulate assisted writing. When both texts were tested in the application, the model demonstrated clear discrimination between human-written and AI-assisted content, reinforcing its relevance for academic integrity and education technology use cases. This showcases how the system can help educators identify potentially AI-assisted submissions without enforcing automated penalties. 
 
 <p align="center">
-  <img src="https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/edu_human.png" width="45%" />
-  <img src="https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/edu_ai.png" width="45%" />
+  <img src="https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/edu_human.png" width="49%" />
+  <img src="https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/edu_ai.png" width="49.5%" />
 </p> 
 
 These real-world demonstrations validate the practical applicability of the system across different domains. By testing both authentic and AI-modified texts in controlled scenarios, the application proves its ability to function as a reliable decision-support tool, providing confidence scores and explainability outputs to assist human reviewers in making informed judgments.
