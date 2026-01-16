@@ -63,13 +63,16 @@ To implement these use cases, it is essential to follow a series of sequential s
 End to End NLP Pipeline For AI-Generated Text Detection
 │
 ├── Assets/
-├── Dataset/            # Dataset files too large to upload in repository
-├── Models/                # Source code
-│   ├── images
-│   └── Credit_Card_Fraud_Detection.ipynb
+├── Dataset/               
+│      ├── Raw/                 # Original dataset from Kaggle
+│      ├── Preprocessed/     
+│      ├── Cleaned/
+│      └── Feature Engineered/
+├── Models/                     # Source code  
 ├── Notebooks/
-├── requirements.txt    # Python dependencies
-├── README.md           # Project documentation
+├── app.py
+├── requirements.txt            # Python dependencies for deployment
+├── README.md                   # Project documentation
 └── Licence
 ```
 ## Project Workflow 
