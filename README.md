@@ -122,6 +122,7 @@ Three publicly available datasets were used for this project. The first dataset 
 
 Besides the `text` column, character and word counts are also good indicators of text classification. To find the correlation among numerical features, correlation heatmap was generated. 
 
+![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/heatmap_df_1.png?raw=true)
 
  
 ## Exploratory Data Analysis (EDA) for Text 
