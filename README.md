@@ -180,7 +180,7 @@ Upon duplicate removal, there are 20877 unique entries in the combined dataset. 
 
 Depending on training model selection, further data engineering is necessary on this lemmatized dataset, which will be discussed in feature engineering section. 
 
-## Exploratory Data Analysis (EDA) for Text 
+## Exploratory Data Analysis for Text 
 
 ## Feature Engineering 
 
