@@ -170,6 +170,13 @@ def truncate_text(text, max_tokens=512):
     return " ".join(truncated).strip()
 ```
 
+Now that 3 datasets are cleaned and preprocessed, they are combined and checked for duplicates. 
+
+```bash
+df_combined = df_1_modified + df_2_modified + df_3_truncated
+```
+
+Upon duplicate removal, there are 20877 unique entries in the combined dataset. 
 
 ## Exploratory Data Analysis (EDA) for Text 
 
