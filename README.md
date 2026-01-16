@@ -153,6 +153,23 @@ The second dataset, [Human vs AI Text Classification Dataset](https://www.kaggle
 
 The third dataset, [AI vs Human Comparison Dataset](https://www.kaggle.com/datasets/prince7489/ai-vs-human-comparison-dataset/data) is the largest among the three datasets considered. To address the challenge of handling its size efficiently, a chunk of 20,000 entries (10,000 human and 10,000 AI-generated texts) is selected for further analysis. AI vs human text classification relies mostly on writing style, repetition, sentence structure, lexical and error patterns. These signals usually appear very early in the text. In practice, the first 200 – 400 tokens already contain enough signal for classification. The rest is redundant stylistically. So, 512 tokens are almost always enough for text classification. Therefore, sentence aware truncation is applied to ‘text’ column to make sure maximum text length is 512 tokens and there are no broken/incomplete sentence in the text entries. 
 
+```bash
+def truncate_text(text, max_tokens=512):
+    if not isinstance(text, str) or len(text.strip()) == 0:
+        return ""
+    sentences = nltk.sent_tokenize(text)
+    truncated = []
+    total_tokens = 0
+
+    for sent in sentences:
+        sent_tokens = len(tokenizer.encode(sent, add_special_tokens=False))
+        if total_tokens + sent_tokens > max_tokens:
+            break
+        truncated.append(sent)
+        total_tokens += sent_tokens
+    return " ".join(truncated).strip()
+```
+
 
 ## Exploratory Data Analysis (EDA) for Text 
 
