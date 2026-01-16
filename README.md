@@ -296,6 +296,7 @@ The very large feature set (`X_train_bow` shape: (16701, 38042)) is the primary 
 
 BiLSTM model training was conducted for 100 epochs, during which training accuracy steadily increased from roughly 0.70 to about 0.99, while validation accuracy rose rapidly early on and stabilized around 0.95–0.97 with minor fluctuations. Training loss consistently decreased throughout all 100 epochs, indicating continued optimization on the training set. In contrast, validation loss dropped sharply in the initial epochs but began to fluctuate and slightly increase in later epochs, suggesting the onset of mild overfitting toward the end of the 100-epoch training period. 
 
+![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/BiLSTM_acc_loss.png?raw=true) 
 
 
 ## Explainability 
