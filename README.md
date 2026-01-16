@@ -342,7 +342,7 @@ Samples of SHAP visualizations are included next.
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/SHAP_exp_generic.png?raw=true) 
 
-The generic interactive visualization of SHAP is sometimes difficult for end users to comprehend. So, an alternative visualization (looking similar to LIME) is also developed. 
+The generic interactive visualization of SHAP is sometimes difficult for end users to comprehend, especially when the text length is high. So, an alternative visualization (looking similar to LIME) is also developed. This alternative visualization along with generic LIME output is used in deployment.
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/SHAP_exp_mod.png?raw=true) 
 
