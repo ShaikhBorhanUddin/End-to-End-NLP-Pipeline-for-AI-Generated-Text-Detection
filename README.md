@@ -138,7 +138,7 @@ Another parameter can be repetition score which measures how repetitive a text i
 repetition score = 1 - (unique words / total words)
 ```
 
-High repetition score indicates fewer unique words and more repetition whereas low repetition score indicates more lexical diversity. These two features are added to the dataset. 
+High repetition score indicates fewer unique words and more repetition whereas low repetition score indicates more lexical diversity. These two features are added to the dataset. The data dictionary for modified first dataset is as follows:
 
 | **Column Name**       | **Data Type**    | **Description**                                              |
 | --------------------- | ---------------- | ------------------------------------------------------------ |
