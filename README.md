@@ -70,7 +70,7 @@ End to End NLP Pipeline For AI-Generated Text Detection
 ├── Notebooks/
 ├── requirements.txt    # Python dependencies
 ├── README.md           # Project documentation
-└── LICENSE
+└── Licence
 ```
 ## Project Workflow 
 
