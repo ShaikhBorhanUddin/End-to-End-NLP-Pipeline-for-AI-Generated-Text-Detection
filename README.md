@@ -336,6 +336,15 @@ In contrast, the DistilBERT model performed significantly better. It achieved 2,
 
 Based on its superior overall performance and suitability for trouble-free deployment, the DistilBERT model was selected for decision visualization. Both LIME and SHAP were evaluated to visualize and interpret the model’s predictions. Some samples generated with LIME are included below. Due to high use of computational resources, number of features were restricted to 10 – 15. 
 
+![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/cm_non_ML.png?raw=true)  
+
+Samples of SHAP visualizations are included next. 
+
+![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/cm_non_ML.png?raw=true) 
+
+The generic interactive visualization of SHAP is sometimes difficult for end users to comprehend. So, an alternative visualization (looking similar to LIME) is also developed. 
+
+![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/cm_non_ML.png?raw=true) 
 
 ## Applications 
 
