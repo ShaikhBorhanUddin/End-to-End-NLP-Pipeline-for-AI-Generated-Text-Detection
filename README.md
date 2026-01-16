@@ -182,6 +182,10 @@ Depending on training model selection, further data engineering is necessary on 
 
 ## Exploratory Data Analysis for Text 
 
+Exploratory Data Analysis (EDA) was conducted to gain meaningful insights into the structural and linguistic differences between human-written and AI-generated text. This step was essential to understand underlying patterns in the dataset before feature engineering and model training. The analysis focused on text length distributions, word usage patterns, n-gram structures, and linguistic complexity measures to identify distinguishing characteristics between the two classes.
+First, the text length distribution was analysed by computing the number of words per sample. 
+
+
 ## Feature Engineering 
 
 Due to fundamental architectural differences between classical machine learning models and transformer-based models, two separate preprocessing and feature engineering pipelines were implemented. Classical machine learning models and the BiLSTM network relied on explicitly engineered features, including Bag-of-Words and TF-IDF representations derived from cleaned and lemmatized text. In contrast, the DistilBERT model utilized minimal preprocessing and employed its native tokenizer to generate contextualized subword embeddings, allowing the model to learn linguistic features automatically through self-attention mechanisms. This separation ensures methodological correctness and fair model comparison. 
