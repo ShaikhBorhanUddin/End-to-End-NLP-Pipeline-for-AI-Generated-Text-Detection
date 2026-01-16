@@ -85,7 +85,7 @@ The following workflow is maintained sequencially in this project.
 
 - Text preprocessing with lowercasing, punctuation removal, tokenization, lemmatization, and stopword filtering
 
-- Exploratory Data Analysis (EDA) to analyze word count distributions, frequent terms, word clouds, bigram patterns, and linguistic complexity measures
+- EDA to analyze word count distributions, frequent terms, word clouds, bigram patterns, and linguistic complexity measures
 
 - Feature engineering using Bag of Words (BoW), TF-IDF, and Word2Vec embeddings
 
