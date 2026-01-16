@@ -304,6 +304,9 @@ BiLSTM model training was conducted for 100 epochs, during which training accura
 
 The performance matrices of distilbert model are given below. 
 
+![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/distilbert_acc_pre.png?raw=true)  
+
+![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/distilbert_rec_f1.png?raw=true) 
 
 ## Explainability 
 
