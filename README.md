@@ -222,7 +222,27 @@ Lexical diversity, measured using the Type-Token Ratio (TTR), revealed that AI-g
 
 ## Feature Engineering 
 
-Due to fundamental architectural differences between classical machine learning models and transformer-based models, two separate preprocessing and feature engineering pipelines were implemented. Classical machine learning models and the BiLSTM network relied on explicitly engineered features, including Bag-of-Words and TF-IDF representations derived from cleaned and lemmatized text. In contrast, the DistilBERT model utilized minimal preprocessing and employed its native tokenizer to generate contextualized subword embeddings, allowing the model to learn linguistic features automatically through self-attention mechanisms. This separation ensures methodological correctness and fair model comparison. 
+Due to fundamental architectural differences between classical machine learning models and transformer-based models, two separate preprocessing and feature engineering pipelines were implemented. Classical machine learning models and the BiLSTM network relied on explicitly engineered features, including Bag-of-Words (BoW) and TF-IDF representations derived from cleaned and lemmatized text. In contrast, the DistilBERT model required minimal preprocessing and employed its native tokenizer to generate contextualized subword embeddings. This allowed the model to automatically learn linguistic features through self-attention mechanisms. This separation ensured methodological correctness and enabled a fair comparison between model architectures. 
+
+All feature engineering procedures were conducted exclusively on the df_combined_lemmatized dataset to ensure consistent and normalized text input. The dataset was first loaded, and essential NLP libraries were imported. English stopwords were downloaded and initialized using NLTK. The preprocessing pipeline ensured that all text entries were properly formatted, tokenized, and free from missing values prior to feature extraction. 
+
+### Stopword Removal 
+
+Each text entry was tokenized and filtered to remove stopwords, producing a new column named cleaned_text. This step eliminated high-frequency but semantically weak words such as and, the, and is, allowing the models to focus on more meaningful linguistic content. Stopword removal improved signal-to-noise ratio and enhanced feature quality for downstream modeling. 
+
+### BoW and CountVectorizer 
+
+Two classical text representation techniques were applied to the cleaned text. First, Bag-of-Words (BoW) features were generated using CountVectorizer, transforming the text into a sparse matrix of word frequencies. This resulted in a feature matrix of shape (20,877, 38,038), where each row represents a document and each column corresponds to a unique word in the vocabulary. 
+
+Similarly, TF-IDF features were extracted using TfidfVectorizer, producing a matrix of identical shape. Unlike BoW, TF-IDF assigns higher weights to words that are frequent within a document but rare across the corpus. This weighting scheme improves the model’s ability to capture discriminative terms, making TF-IDF particularly effective for text classification tasks. These two representations provided strong baseline lexical features for classical machine learning models. 
+
+### word2vec 
+
+In addition to frequency-based methods, a Word2Vec model was trained on the cleaned and lemmatized text to capture semantic relationships between words. The model learned embeddings for 12,664 unique words, with each word represented by a 100-dimensional dense vector. These embeddings encode contextual similarity and semantic structure, allowing related words to have similar vector representations. 
+
+The learned word embeddings can be aggregated (e.g., using mean pooling) to form document-level representations, which were used as input for deep learning models. Finally, all trained vectorizers and the Word2Vec model were saved to ensure reproducibility. The feature-engineered dataset was also exported as a CSV file to facilitate seamless integration into downstream modeling pipelines. 
+
+This multi-representation strategy enabled the models to learn from both surface-level lexical patterns and deeper semantic structures, ultimately strengthening classification performance. 
 
 ## Models 
 
