@@ -194,7 +194,13 @@ The analysis of most common words per class was conducted separately for human-g
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/most_common_words.png?raw=true) 
 
+In the df_combined dataset, several high-frequency words appear consistently in the top 15 list for both human-generated and AI-generated text, including student, people, would, could, also, time, school, and electoral, indicating shared thematic and stylistic patterns across both classes. Notably, the words would, people, and student occur more than 20,000 times in human-written entries, highlighting their strong presence in natural discourse and opinion-based writing. Similarly, the term student appears more than 18,000 times in AI-generated text, suggesting that educational topics are frequently addressed by generative models as well. Additionally, words such as people and also exceed 10,000 occurrences in both categories, reflecting their role as common connective and contextual terms. 
+
+After lemmatization, the overall frequency distribution of the most common words remained largely unchanged, indicating that normalization did not significantly alter the core vocabulary patterns in the dataset. The word student continued to be the most frequent term across both human-generated and AI-generated categories, reaffirming the strong presence of education-related content in the corpus. Other high-frequency words also retained similar ranking positions, demonstrating that lemmatization primarily reduced word-form variations (such as plurals or tense changes) without affecting semantic prominence. 
+
 ![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/most_common_words_lemmatized.png?raw=true) 
+
+
 
 
 ## Feature Engineering 
