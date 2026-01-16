@@ -77,6 +77,30 @@ End to End NLP Pipeline For AI-Generated Text Detection
 ```
 ## Project Workflow 
 
+The following workflow is maintained sequencially in this project. 
+
+- Dataset selection from multiple sources to ensure diverse human and AI-generated text samples
+
+- Data cleaning including duplicate removal and handling missing or noisy entries
+
+- Text preprocessing with lowercasing, punctuation removal, tokenization, lemmatization, and stopword filtering
+
+- Exploratory Data Analysis (EDA) to analyze word count distributions, frequent terms, word clouds, bigram patterns, and linguistic complexity measures
+
+- Feature engineering using Bag of Words (BoW), TF-IDF, and Word2Vec embeddings
+
+- Model selection covering classical machine learning models, BiLSTM, and transformer-based DistilBERT
+
+- Train-test splitting to ensure unbiased performance evaluation
+
+- Model training with hyperparameter tuning and GPU acceleration
+
+- Model evaluation using accuracy, precision, recall, F1-score, ROC-AUC, and confusion matrices
+
+- Result visualization and explaining with LIME and SHAP
+
+- Deployment via a Gradio web application with real-time prediction, confidence scoring, and explainability support
+
 ## Dataset, Cleaning & Pre-processing 
 
 | **Column Name**      | **Data Type**    | **Description**                                                                 |
