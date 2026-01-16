@@ -359,8 +359,8 @@ To demonstrate the real-world effectiveness of the proposed AI-generated text de
 In the first scenario, an original news article published by BBC was used as a sample of human-authored journalistic content. This article was then modified using a generative AI model to create an AI-assisted version while preserving the original topic and structure. Both versions were separately tested in the application. The system successfully differentiated between the human-written news article and its AI-generated counterpart, assigning higher confidence scores to the AI-modified version. This experiment highlights the model’s capability to support journalism and news verification workflows by flagging synthetically altered content for further editorial review. 
 
 <p align="center">
-  <img src="https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/news_human.png" width="49.8%" />
-  <img src="https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/news_ai.png" width="49.8%" />
+  <img src="https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/news_human.png" width="49.5%" />
+  <img src="https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/news_ai.png" width="49.5%" />
 </p> 
 
 In the second scenario, a formal application letter written by a student to a school principal was used as a human-authored sample. An AI-enhanced version of the same letter was generated using a large language model to simulate assisted writing. When both texts were tested in the application, the model demonstrated clear discrimination between human-written and AI-assisted content, reinforcing its relevance for academic integrity and education technology use cases. This showcases how the system can help educators identify potentially AI-assisted submissions without enforcing automated penalties. 
