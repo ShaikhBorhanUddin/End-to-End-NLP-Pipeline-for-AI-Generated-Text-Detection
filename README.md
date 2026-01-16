@@ -176,7 +176,9 @@ Now that 3 datasets are cleaned and preprocessed, they are combined and checked 
 df_combined = df_1_modified + df_2_modified + df_3_truncated
 ```
 
-Upon duplicate removal, there are 20877 unique entries in the combined dataset. 
+Upon duplicate removal, there are 20877 unique entries in the combined dataset. It can be used directly for distilbert model. 
+
+Lemmatization is not strictly necessary in all text classification tasks, but it can be very beneficial, especially for distinguishing between human and AI-generated text. It reduces words to their base or dictionary form (lemma). For example, 'running', 'runs', and 'ran' all become 'run' after lemmatization. This reduces the total number of unique tokens in vocabulary, which can simplify model and prevent overfitting. By grouping different inflections of a word, lemmatization helps model treat them as the same concept. This can improve the quality of features extracted (e.g., for TF-IDF or word embeddings), as 'good' and 'better' are recognized as related to 'well'. It also allows the model to focus more on the core meaning of words rather than their grammatical variations. This can be crucial for style analysis, where the semantic content might be similar but the stylistic choices differ. Finally, by normalizing word forms, lemmatization can lead to better generalization and potentially higher accuracy for classification model, especially if the differences between human and AI text are subtle and relate to core vocabulary usage. 
 
 ## Exploratory Data Analysis (EDA) for Text 
 
