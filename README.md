@@ -350,12 +350,11 @@ When comparing the two frameworks, SHAP demonstrates superior explainability by 
 
 ## Deployment 
 
-The application can be accessed through the site:  https://huggingface.co/spaces/ShaikhBorhanUddin/AI_generated_text_detection 
-Due to the large model size (over 300 MB), the model files were uploaded to the Hugging Face platform for deployment. The user interface was developed using Gradio. For each user input, the application generates both LIME and SHAP visualizations side by side along with the classification output, with important text segments highlighted. In addition, the most influential words driving the classification are displayed in the form of a bar chart.
-
 To access the app click the [link](https://huggingface.co/spaces/ShaikhBorhanUddin/AI_generated_text_detection). 
 
-## Applications 
+Due to the large model size (over 300 MB), the model files were uploaded to the Hugging Face platform for deployment. The user interface was developed using Gradio. For each user input, the application generates both LIME and SHAP visualizations side by side along with the classification output, with important text segments highlighted. In addition, the most influential words driving the classification are displayed in the form of  bar charts. 
+
+## Practical Applications 
 
 To demonstrate the real-world effectiveness of the proposed AI-generated text detection system, practical experiments were conducted using authentic human-written content and their AI-modified counterparts. These examples were tested directly through the deployed Gradio application, allowing for an interactive and transparent evaluation of model predictions. 
 
