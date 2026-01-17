@@ -376,6 +376,20 @@ These real-world demonstrations validate the practical applicability of the syst
 
 ## Limitations 
 
+While the proposed system demonstrates promising results, certain limitations were observed that highlight areas for further improvement and optimization. 
+
+### Dataset domain bias 
+
+Although the dataset contains a large number of samples, there is a noticeable concentration of politically themed content, particularly related to U.S. politics. Frequent occurrences of terms such as electoral college, popular vote, electoral vote, and vice president indicate topic imbalance. Since real-world users may input text from diverse domains (education, business, healthcare, social media, etc.), this topical skew may limit the model’s generalization ability to unseen contexts. 
+
+### High memory consumption 
+
+The data cleaning, feature engineering, and model training stages require substantial computational resources. During experimentation, RAM usage reached up to 48 GB in the Colab Pro environment, especially when working with TF-IDF matrices and deep learning models. This resource requirement may restrict reproducibility for users without access to high-memory cloud instances or high-end local machines. 
+
+### Inference latency for long texts 
+
+When processing lengthy text inputs, the deployed Gradio application takes approximately 30–40 seconds to generate predictions and highlight influential words. This delay can negatively impact user experience, particularly in real-time applications where quick feedback is expected. Optimization techniques such as text chunking, model distillation, or backend acceleration could help mitigate this issue in future improvements. 
+
 ## Technologies Used 
 
 ## Future Developement 
