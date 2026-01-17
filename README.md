@@ -390,7 +390,7 @@ The data cleaning, feature engineering, and model training stages require substa
 
 When processing lengthy text inputs, the deployed Gradio application takes approximately 30–40 seconds to generate predictions and highlight influential words. This delay can negatively impact user experience, particularly in real-time applications where quick feedback is expected. Optimization techniques such as text chunking, model distillation, or backend acceleration could help mitigate this issue in future improvements. 
 
-## Technologies Used 
+## Tools & Technologies Used 
 
 This project relies on a combination of classical machine learning, deep learning, and transformer-based techniques, along with essential data processing and visualization libraries, to build an effective AI-generated text detection system. 
 
@@ -407,8 +407,19 @@ This project relies on a combination of classical machine learning, deep learnin
 - Deployment: Gradio Web Application 
 - Development Environment: Jupyter Notebook, VS Code, Google Colab (GPU-enabled) 
 
-## Future Developement 
-
 ## Licence 
 
-## Contact  
+This project is licensed under the MIT License, a permissive open-source license that allows reuse, modification, and distribution with attribution. Users are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the project, provided that the original copyright and license notice are included in all copies or substantial portions of the software. 
+
+For more details, refer to the Licence file in this repository. 
+
+## Contact 
+
+If you have any questions or would like to connect, feel free to reach out!
+
+**Shaikh Borhan Uddin**  
+📧 Email: [`shaikhborhanuddin@gmail.com`](mailto:shaikhborhanuddin@gmail.com)  
+🔗 [`LinkedIn`](https://www.linkedin.com/in/shaikh-borhan-uddin-905566253/)  
+🌐 [`Portfolio`](https://github.com/ShaikhBorhanUddin)
+
+Feel free to fork the repository, improve the queries, or add visualizations! 
