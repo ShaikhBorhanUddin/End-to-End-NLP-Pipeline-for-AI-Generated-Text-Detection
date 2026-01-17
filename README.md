@@ -418,7 +418,7 @@ For more details, refer to the Licence file in this repository.
 If you have any questions or would like to connect, feel free to reach out!
 
 **Shaikh Borhan Uddin**  
-📧 Email: [`shaikhborhanuddin@gmail.com`](mailto:shaikhborhanuddin@gmail.com)  
+📧 [`Email`](mailto:shaikhborhanuddin@gmail.com)  
 🔗 [`LinkedIn`](https://www.linkedin.com/in/shaikh-borhan-uddin-905566253/)  
 🌐 [`Portfolio`](https://github.com/ShaikhBorhanUddin)
 
