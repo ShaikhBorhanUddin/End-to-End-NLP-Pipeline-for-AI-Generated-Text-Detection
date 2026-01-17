@@ -406,7 +406,7 @@ This project relies on a combination of classical machine learning, deep learnin
 - Model Evaluation: Accuracy, Precision, Recall, F1-score, ROC-AUC, Confusion Matrix 
 - Visualization: Matplotlib, Seaborn 
 - Explainability: LIME, SHAP 
-- Deployment: Gradio Web Application 
+- Deployment: Gradio, Hugging face  
 - Development Environment: Jupyter Notebook, VS Code, Google Colab (GPU-enabled) 
 
 ## Licence 
