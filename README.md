@@ -392,6 +392,21 @@ When processing lengthy text inputs, the deployed Gradio application takes appro
 
 ## Technologies Used 
 
+This project relies on a combination of classical machine learning, deep learning, and transformer-based techniques, along with essential data processing and visualization libraries, to build an effective AI-generated text detection system. 
+
+Programming Language: Python 3.10+
+Machine Learning Frameworks: Logistic Regression, Support Vector Machine (SVM), Random Forest, XGBoost
+Deep Learning Frameworks: TensorFlow, Keras (BiLSTM)
+Transformer Model: DistilBERT (Hugging Face Transformers)
+Data Processing: Pandas, NumPy
+NLP Tools: NLTK, spaCy (tokenization, lemmatization, stopword removal)
+Feature Extraction: TF-IDF Vectorizer, CountVectorizer, Word2Vec
+Model Evaluation: Accuracy, Precision, Recall, F1-score, ROC-AUC, Confusion Matrix
+Visualization: Matplotlib, Seaborn
+Explainability: LIME, SHAP
+Deployment: Gradio Web Application
+Development Environment: Jupyter Notebook, VS Code, Google Colab (GPU-enabled) 
+
 ## Future Developement 
 
 ## Licence 
