@@ -356,6 +356,11 @@ Due to the large model size (over 300 MB), the model files were uploaded to the 
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/sample_screenshot.png?raw=true) 
 
+<p align="center">
+  <img src="https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/lime_exp_viz.png" width="49.5%" />
+  <img src="https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/shap_exp_viz.png" width="49.5%" />
+</p> 
+
 ## Practical Applications 
 
 To demonstrate the real-world effectiveness of the proposed AI-generated text detection system, practical experiments were conducted using authentic human-written content and their AI-modified counterparts. These examples were tested directly through the deployed Gradio application, allowing for an interactive and transparent evaluation of model predictions. 
