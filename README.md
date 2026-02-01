@@ -7,7 +7,7 @@
 
   <!-- Emoji Icons -->
   <img src="https://img.shields.io/badge/⚖️%20License-MIT-green" alt="License">
-  <img src="https://img.shields.io/badge/🐞%20Issues-GitHub-red" alt="Issues">
+  <img src="https://img.shields.io/badge/🐞%20Issues-None-red" alt="Issues">
 
   <!-- Repo Stats -->
   <img src="https://img.shields.io/github/repo-size/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection?logo=github" alt="Repo Size">
