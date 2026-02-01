@@ -33,7 +33,7 @@
   <!-- DevOps -->
   <img src="https://img.shields.io/badge/Version%20Control-Git-orange?logo=git" alt="Git">
   <img src="https://img.shields.io/badge/Host-GitHub-black?logo=github" alt="GitHub">
-  <img src="https://img.shields.io/badge/Host-Gradio%20%7C%20HuggingFace-orange?logo=huggingface" alt="Host">
+  <img src="https://img.shields.io/badge/Host-HuggingFace-orange?logo=huggingface" alt="Host">
 
   <!-- Social -->
   <img src="https://img.shields.io/github/forks/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection?style=social" alt="Forks">
