@@ -32,7 +32,6 @@
 
   <!-- DevOps -->
   <img src="https://img.shields.io/badge/Version%20Control-Git-orange?logo=git" alt="Git">
-  <img src="https://img.shields.io/badge/Host-GitHub-black?logo=github" alt="GitHub">
   <img src="https://img.shields.io/badge/Host-HuggingFace-orange?logo=huggingface" alt="Host">
 
   <!-- Social -->
