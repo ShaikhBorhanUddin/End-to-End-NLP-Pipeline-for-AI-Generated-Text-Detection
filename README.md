@@ -425,8 +425,6 @@ For more details, refer to the Licence file in this repository.
 If you have any questions or would like to connect, feel free to reach out!
 
 **Shaikh Borhan Uddin**  
-📧 [`Email`](mailto:shaikhborhanuddin@gmail.com)  
-🔗 [`LinkedIn`](https://www.linkedin.com/in/shaikh-borhan-uddin-905566253/)  
-🌐 [`Portfolio`](https://github.com/ShaikhBorhanUddin)
+📧 [`Email`](mailto:shaikhborhanuddin@gmail.com)&nbsp;&nbsp;&nbsp;🔗 [`LinkedIn`](https://www.linkedin.com/in/shaikh-borhan-uddin-905566253/)&nbsp;&nbsp;&nbsp;🌐 [`Portfolio`](https://github.com/ShaikhBorhanUddin) 
 
 Feel free to fork the repository, experiment with new models, larger datasets or add new features to deployment!
