@@ -1,7 +1,16 @@
-gradio==4.15.0
+# PyTorch CPU only
+torch==2.9.1
+
+# Transformers for DistilBERT
+transformers==4.38.2
+
+# Gradio UI
+gradio==6.2.0
+
+# Explainability
 lime==0.2.0.1
-numpy>=1.23
-torch>=2.0
-matplotlib>=3.7
-transformers>=4.35
-shap>=0.43
+shap==0.44.1
+
+# Scientific computing / plotting
+numpy==1.26.4
+matplotlib==3.8.2
