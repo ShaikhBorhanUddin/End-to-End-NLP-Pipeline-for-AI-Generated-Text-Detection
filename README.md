@@ -361,7 +361,7 @@ Due to the large model size (over 300 MB), the model files were uploaded to the 
   <img src="https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/shap_exp_viz.png" width="49.5%" />
 </p> 
 
-Several changes were implemented on the initial application code to optimize performance and reduce memory usage: the input text is truncated to 64 tokens (`max_length=64`) to limit token-level computation, SHAP uses the **partition** algorithm which is significantly faster than the default `GradientExplainer`, and explanations are computed one text at a time, keeping memory requirements low and ensuring faster app loading and inference. 
+Several changes were implemented on the initial deployment code to optimize performance and reduce memory usage: the input text is truncated to 64 tokens (`max_length=64`) to limit token-level computation, SHAP uses the **partition** algorithm which is significantly faster than the default `GradientExplainer`, and explanations are computed one text at a time, keeping memory requirements low and ensuring faster app loading and inference. 
 
 ## Practical Applications 
 
