@@ -41,7 +41,7 @@
   <img src="https://img.shields.io/badge/Project-Deployed-brightgreen" alt="Status">
 </p> 
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-For-Human-vs-AI-Generated-Text-Classification-System/blob/main/Assets/ai_vs_human_title_mod.png?raw=true) 
+![Dashboard](Assets/ai_vs_human_title_mod.png) 
 
 ## Overview 
 
