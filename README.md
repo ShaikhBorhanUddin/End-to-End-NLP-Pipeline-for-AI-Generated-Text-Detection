@@ -122,7 +122,7 @@ Three publicly available datasets were used for this project. The first dataset 
 
 Besides the `text` column, character and word counts are also good indicators of text classification. To find the correlation among numerical features, correlation heatmap was generated. 
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/heatmap.png?raw=true) 
+![Dashboard](Assets/heatmap.png) 
 
 Analyzing dataset and correlation heatmap, the following columns were excluded from model training to prevent data leakage, reduce bias, and ensure that the classifier learned intrinsic linguistic patterns rather than relying on metadata or weak auxiliary signals. The quality_score column was dropped because readability-based metrics capture stylistic uniformity but show high overlap between human and AI-generated text, making them weak and non-decisive predictors. Similarly, the sentiment column was excluded as emotional tone exhibits very weak correlation with AI authorship and does not reliably distinguish between human and AI writing. Metadata attributes such as topic were removed due to the risk of shortcut learning, as topic information can indirectly reveal labels without reflecting authorship style. The source_detail column was excluded because it explicitly identifies content origin (e.g., human author IDs or AI model names), which would cause severe data leakage and artificially inflate model performance. The timestamp column was dropped as temporal information is irrelevant to linguistic structure and may introduce chronological bias. The plagiarism column was excluded because plagiarism indicators are not causally related to AI text generation and are often noisy or inconsistently defined. Finally, the notes column was removed due to its subjective and human-annotated nature, which lacks consistency and does not represent intrinsic text characteristics. These columns were retained only for exploratory data analysis, stratified sampling, and bias analysis, while the final model was trained exclusively on text-based features. 
 
@@ -186,37 +186,37 @@ Exploratory Data Analysis (EDA) was conducted to gain meaningful insights into t
 
 First, the text length distribution was analysed by computing the number of words per sample. 
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/word_count.png?raw=true) 
+![Dashboard](Assets/word_count.png) 
 
 The word count distribution analysis (shown in above images) clear structural differences between human-generated and AI-generated text across both the original and lemmatized datasets. Most samples are concentrated within the 250–450 word range, indicating that the dataset primarily consists of moderately long texts rather than short responses. Human-written content demonstrates greater variability and a stronger presence in higher word-count bins, particularly around 400–450 words, suggesting more diverse and elaborative writing styles. In contrast, AI-generated text is more evenly distributed across mid-length ranges (250–400 words), reflecting the controlled and structured nature of generative models. Very short text entries (below 100 words) are relatively rare in both classes but appear slightly more frequently among AI-generated samples. The near-identical patterns observed after lemmatization confirm that preprocessing preserves the original structural characteristics of the data, ensuring that no class-specific bias is introduced during normalization. 
 
 The analysis of most common words per class was conducted separately for human-generated and AI-generated text across both the original and lemmatized datasets. After removing stopwords, horizontal bar charts were generated for both datasets. 
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/most_common_words.png?raw=true) 
+![Dashboard](Assets/most_common_words.png) 
 
 In the df_combined dataset, several high-frequency words appear consistently in the top 15 list for both human-generated and AI-generated text, including student, people, would, could, also, time, school, and electoral, indicating shared thematic and stylistic patterns across both classes. Notably, the words would, people, and student occur more than 20,000 times in human-written entries, highlighting their strong presence in natural discourse and opinion-based writing. Similarly, the term student appears more than 18,000 times in AI-generated text, suggesting that educational topics are frequently addressed by generative models as well. Additionally, words such as people and also exceed 10,000 occurrences in both categories, reflecting their role as common connective and contextual terms. 
 
 After lemmatization, the overall frequency distribution of the most common words remained largely unchanged, indicating that normalization did not significantly alter the core vocabulary patterns in the dataset. The word student continued to be the most frequent term across both human-generated and AI-generated categories, reaffirming the strong presence of education-related content in the corpus. Other high-frequency words also retained similar ranking positions, demonstrating that lemmatization primarily reduced word-form variations (such as plurals or tense changes) without affecting semantic prominence. 
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/most_common_words_lemmatized.png?raw=true) 
+![Dashboard](Assets/most_common_words_lemmatized.png) 
 
 These findings are further reinforced through the word cloud visualizations, where high-frequency words such as student, people, car, school, vote, time, make, and electoral appear in significantly larger font sizes. The prominence of these words visually highlights their dominance across both human and AI-generated text, making the lexical patterns more intuitive and easier to interpret. 
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/wordcloud.png?raw=true) 
+![Dashboard](Assets/wordcloud.png) 
 
 When comparing to unigram, higher N-gram analysis is significantly more computationally expensive because the number of possible word combinations increases exponentially as N grows. This results in substantially higher storage requirements, as large text corpora generate a vast number of unique N-grams that must be stored along with their frequency counts, increasing memory consumption and data management complexity. Furthermore, processing costs rise since higher N-gram generation requires additional operations during text scanning, and downstream tasks such as probability estimation, smoothing, and sequence matching must be performed over a much larger feature space, leading to slower execution times. For these reasons, N-gram analysis in this project is restricted to bigrams in order to maintain a balance between computational efficiency and analytical effectiveness. 
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/bigram.png?raw=true) 
+![Dashboard](Assets/bigram.png) 
 
 The bigram analysis for the original df_combined dataset reveals distinct yet overlapping thematic patterns between human-generated and AI-generated text. In both categories, **electoral college** emerges as the most frequent bigram, indicating a strong political discourse presence in the dataset. Human-generated text shows higher diversity with phrases such as driverless cars, community service, many people, and students would, suggesting more personalized and context-rich expression. In contrast, AI-generated text demonstrates stronger emphasis on structured and topic-focused phrases like car usage, traffic congestion, public transportation, and air pollution, reflecting a more formal, informational tone. While several bigrams such as popular vote, driverless cars, and united states appear in both classes, their differing frequencies highlight stylistic variation in how humans and AI describe similar topics. 
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/bigram_lemmatized.png?raw=true) 
+![Dashboard](Assets/bigram_lemmatized.png) 
 
 After lemmatization, the overall thematic patterns remain consistent, but frequency counts become more consolidated due to word normalization. “Electoral college” continues to dominate both human and AI categories, reinforcing its prominence across the corpus. Human-generated text shows increased frequency for phrases such as driverless car, cell phone, extracurricular activity, and student would, indicating enhanced clarity after normalization. Meanwhile, AI-generated text maintains strong representation of transportation and environmental themes through bigrams like car usage, limit car, traffic congestion, air pollution, and greenhouse gas. The persistence of these structured, topic-driven phrases suggests AI text generation follows consistent narrative templates. Overall, lemmatization preserves semantic meaning while reducing linguistic noise, making stylistic differences between human and AI text even more apparent. 
 
 For complexity measure analysis, Flesch Reading Ease scores and lexical diversity metrics were visualized to compare the linguistic characteristics of human-generated and AI-generated texts. The Flesch Reading Ease analysis indicates clear differences in readability between human-generated and AI-generated texts. Human-written content consistently demonstrated higher readability, with original texts averaging a score of 62.45, which corresponds to a standard and easily understandable reading level, while lemmatized human texts showed a slight improvement, averaging 66.80. In contrast, AI-generated texts were notably more difficult to read, with original texts scoring an average of 46.05 and lemmatized versions averaging 51.17, both reflecting a more complex and less accessible writing style. Although lemmatization marginally improved readability for both categories, a substantial readability gap between human and AI-generated content persisted, highlighting fundamental stylistic differences in sentence construction and vocabulary usage. 
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/flesch_ttr.png?raw=true) 
+![Dashboard](Assets/flesch_ttr.png) 
 
 Lexical diversity, measured using the Type-Token Ratio (TTR), revealed that AI-generated texts exhibited slightly higher vocabulary variation compared to human-generated content. In the original dataset, AI texts achieved an average TTR of 0.65, compared to 0.63 for human texts, and this pattern remained consistent after lemmatization, with AI texts averaging 0.61 versus 0.59 for human-written samples. As expected, lemmatization reduced TTR values for both categories by consolidating inflected word forms into their base forms. Despite this reduction, AI-generated content maintained marginally higher lexical diversity, suggesting a broader distribution of unique tokens, albeit often within more structured and repetitive syntactic patterns. 
 
@@ -267,7 +267,7 @@ Logistic Regression (LR), Support Vector Machine (SVM), Random Forest (RF), and 
 
 The second model training pipeline implements a deep learning sequence model based on a Bidirectional LSTM (BiLSTM) architecture built with TensorFlow/Keras. This approach is designed to capture sequential and contextual dependencies in text that traditional machine learning models cannot explicitly model. Text inputs are vectorized using pretrained representations, most notably Word2Vec embeddings, optionally concatenated with engineered numerical features and reshaped into a 3-D tensor to satisfy recurrent network input requirements. In the Word2Vec + numerical-feature setting, the resulting input shape is (104, 1), where each feature dimension is treated as a timestep. The model itself is defined as a Sequential Keras model consisting of two stacked Bidirectional LSTM layers: the first with 64 units and return_sequences=True, followed by a Dropout layer (rate = 0.3) for regularization, and a second BiLSTM layer with 32 units, again followed by Dropout (0.3). The recurrent layers are followed by a Dense layer with 16 units and ReLU activation to learn higher-level abstractions, and a final Dense output layer with a sigmoid activation for binary classification. The model is compiled using the Adam optimizer, binary cross-entropy loss, and accuracy as the evaluation metric, and is trained using mini-batch gradient descent. Overall, this notebook investigates whether bidirectional temporal modeling of feature sequences via recurrent neural networks can outperform classical machine-learning approaches on the same classification task. 
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/BiLSTM.png?raw=true) 
+![Dashboard](Assets/BiLSTM.png) 
 
 A transformer-based training pipeline was implemented using the Hugging Face Transformers library and a pretrained DistilBERT model for binary text classification. The model imports `DistilBertForSequenceClassification` initialized from the `distilbert-base-uncased` checkpoint and configured with `num_labels = 2`. Its architecture consists of a DistilBERT encoder that generates contextualized token embeddings, followed by a linear pre-classifier layer and a final classification head that outputs logits for the two target classes. Text inputs are tokenized using the native DistilBERT tokenizer and passed through the model for end-to-end supervised fine-tuning. During training and inference, both the model and input tensors are automatically transferred to the CUDA device when available to accelerate computation. This approach uses self-attention mechanisms to learn deep semantic and contextual representations that are not accessible to classical or recurrent models. 
 
@@ -298,17 +298,17 @@ The very large feature set (`X_train_bow` shape: (16701, 38042)) is the primary 
 
 BiLSTM model training was conducted for 100 epochs, during which training accuracy steadily increased from roughly 0.70 to about 0.99, while validation accuracy rose rapidly early on and stabilized around 0.95–0.97 with minor fluctuations. Training loss consistently decreased throughout all 100 epochs, indicating continued optimization on the training set. In contrast, validation loss dropped sharply in the initial epochs but began to fluctuate and slightly increase in later epochs, suggesting the onset of mild overfitting toward the end of the 100-epoch training period. 
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/BiLSTM_acc_loss.png?raw=true) 
+![Dashboard](Assets/BiLSTM_acc_loss.png) 
 
 ### Distilbert base 
 
 The performance matrices of distilbert model are given below. 
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/distilbert_acc_pre.png?raw=true)   
+![Dashboard](Assets/distilbert_acc_pre.png)   
 
 Here, validation accuracy remains consistently high across epochs, starting around 0.97, quickly reaching approximately 0.99, and stabilizing with only minor fluctuations. Validation precision shows a brief dip in early epochs but rapidly improves to around 0.99 and remains stable thereafter, indicating very few false positives as training progresses. 
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/distilbert_rec_f1.png?raw=true) 
+![Dashboard](Assets/distilbert_rec_f1.png) 
 
 Validation recall stays extremely high throughout training, close to 0.99–1.00, with only a small temporary drop around the middle epochs before recovering. The validation F1-score closely follows this trend, remaining around 0.98–0.99 and stabilizing toward the later epochs, reflecting a strong and well-balanced performance between precision and recall. 
 
@@ -316,17 +316,17 @@ Validation recall stays extremely high throughout training, close to 0.99–1.00
 
 All models showed nearly perfect and identical ROC Curves, and therefore not discussed with specific details. 
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/roc_ML.png?raw=true) 
+![Dashboard](Assets/roc_ML.png) 
 
 ### Confusion Matrix 
 
 Confusion Matrices of all tested models are included next. 
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/cm_ML.png?raw=true) 
+![Dashboard](Assets/cm_ML.png) 
 
 Across all ML models confusion matrices, the models demonstrate consistently strong classification performance with high true positive and true negative counts and relatively low misclassification rates. Logistic Regression performs best with Bag-of-Words and TF-IDF features, showing balanced errors and only a slight increase in false positives and false negatives when using Word2Vec. Linear SVM exhibits very strong results overall, particularly with TF-IDF, where both false positives and false negatives are among the lowest across all models, while Word2Vec again introduces more misclassifications. Random Forest achieves high true negative counts but tends to show comparatively higher false negatives, indicating a slightly weaker ability to capture all positive instances, especially with Word2Vec. XGBoost delivers consistently robust performance across all feature sets, with Bag-of-Words and Word2Vec yielding very low error counts and TF-IDF showing only a minor increase in misclassifications. Overall, Bag-of-Words and TF-IDF representations outperform Word2Vec across most models, and Linear SVM with TF-IDF and XGBoost variants emerge as the most reliable configurations based on confusion matrix outcomes. 
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/cm_non_ML.png?raw=true) 
+![Dashboard](Assets/cm_non_ML.png) 
 
 The BiLSTM with Word2Vec model correctly classified most samples, with 1,956 true negatives and 1,950 true positives. However, it produced 129 false positives and 141 false negatives, leading to an overall accuracy of about 93.5%. This indicates solid performance, but with a noticeable number of misclassifications in both classes. 
 
@@ -336,15 +336,15 @@ In contrast, the DistilBERT model performed significantly better. It achieved 2,
 
 Based on its superior overall performance and suitability for trouble-free deployment, the DistilBERT model was selected for decision visualization. Both LIME and SHAP were evaluated to visualize and interpret the model’s predictions. Some samples generated with LIME are included below. Due to high use of computational resources, number of features were restricted to 10 – 15. 
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/LIME_exp.png?raw=true)  
+![Dashboard](Assets/LIME_exp.png)  
 
 Samples of SHAP visualizations are included next. 
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/SHAP_exp_generic.png?raw=true) 
+![Dashboard](Assets/SHAP_exp_generic.png) 
 
 The generic interactive visualization of SHAP is sometimes difficult for end users to comprehend, especially when the text length is high. So, an alternative visualization (looking similar to LIME) is also developed. This alternative visualization along with generic LIME output is used in deployment.
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/SHAP_exp_mod.png?raw=true) 
+![Dashboard](Assets/SHAP_exp_mod.png) 
 
 When comparing the two frameworks, SHAP demonstrates superior explainability by precisely highlighting the text segments contributing to the classification outcome. 
 
@@ -354,7 +354,7 @@ To access the app click the [link](https://huggingface.co/spaces/ShaikhBorhanUdd
 
 Due to the large model size (over 300 MB), the model files were uploaded to the Hugging Face platform for deployment. The user interface was developed using Gradio. For each user input, the application generates both LIME and SHAP visualizations side by side along with the classification output, with important text segments highlighted. In addition, the most influential words driving the classification are displayed in the form of  bar charts. 
 
-![Dashboard](https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/sample_screenshot.png?raw=true) 
+![Dashboard](Assets/sample_screenshot.png) 
 
 <p align="center">
   <img src="https://github.com/ShaikhBorhanUddin/End-to-End-NLP-Pipeline-for-AI-Generated-Text-Detection/blob/main/Assets/lime_exp_viz.png" width="49.5%" />
